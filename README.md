@@ -18,3 +18,4 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 |                       | AleksejsLalins   |   |   |   |   |   |   |   |   |   |    | 
 |                       | yehor10          |   |   |   |   |   |   |   |   |   |    | 
 |                       | YevgeniyaKrp     |   |   |   |   |   |   |   |   |   |    | 
+|                       | AmosovsRuslans   |   |   |   |   |   |   |   |   |   |    | 
