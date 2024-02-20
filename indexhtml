@@ -8,7 +8,7 @@
     <body>
         <style>
             body{color:aquamarine
-            backgraund-color:black;}
+            backgraund-color black; }
             *{border:solid 1px color red}
             </style>
             <img src="img/A.npg">
