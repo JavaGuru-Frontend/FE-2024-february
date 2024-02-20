@@ -17,7 +17,7 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 | Student               | Github           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 
 | :-------------------- | :--------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
 |                       | AleksejsLalins   |   |   |   |   |   |   |   |   |   |    | 
-|                       | AlijAalijeva     |   |   |   |   |   |   |   |   |   |    | 
+|                       | AlijAalijeva     | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | aMADsss          | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | Ruslans          |   |   |   |   |   |   |   |   |   |    | 
 |                       | Argyreianervosa  | ? |   |   |   |   |   |   |   |   |    | 
