@@ -12,7 +12,7 @@
 
 ## Задание
 Посмотреть пример макета
-[Макет](https://www.figma.com/file/MhTXcZQwDlzHbKwe6aaXRT/Portfolio?type=design&mode=design&t=M5ozEIZJEleXJZQ5-0)   
+[Макет](https://www.figma.com/file/ZQow7y7MzPV5H488WiuteJ/Portfolio?type=design&mode=design&t=9ZFy6trMqi1HXqrR-1)   
 
 Заготовить данные которые нам будут пригодиться в дальнейшем 
 Можно использовать свои данные, данные знаменитостей или выдуманные.
