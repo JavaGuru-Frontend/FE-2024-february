@@ -22,7 +22,7 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 |                       | Ruslans          |   |   |   |   |   |   |   |   |   |    | 
 |                       | Argyreianervosa  | ? |   |   |   |   |   |   |   |   |    | 
 |                       | Anna Bernadska   | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | Edward         ? | ✓ |   |   |   |   |   |   |   |   |    | 
+|                       | Edward           | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | LadaFjodorova    | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | neontone         | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | pjotr grezmanis  | ? |   |   |   |   |   |   |   |   |    | 
