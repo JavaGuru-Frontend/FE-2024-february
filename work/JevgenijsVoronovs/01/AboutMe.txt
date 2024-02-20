@@ -1,22 +1,41 @@
+WORK EXPERIENCE
+EDUCATION
+SKILLS
+FAQ
+LANGUAGES
+CONTACT ME
+
+Hello world! I’m Jevgenijs Voronovs
+a Front-end developer, based in Riga.
 FRONTEND DEVELOPER
-Jevgenijs Voronovs
+
 LinkedIn
 jevgenijs.voronovs@gmail.com
 
+About Me
 I took part in the development of modern interfaces, creation of UI solutions that meet the needs of users while studying new methodologies and empathizing with users. 
 I had an opportunity to work on the design of different projects including websites and mobile applications for marketing as well as participated in other challenges.
 
-
+Work experience
 Swisscom, Riga | Front-end engeneer 
 April 2022 - Present
 
 Intexsys, Riga | Front-end developer
 August 2016 – April 2022
-Participating in code and technical reviews;
-Performing quality assurance and troubleshooting code rendering across multiple desktop and mobile devices;
-Launching A/B tests using Google Optimize software;
-Providing introductory and ongoing training for new frontend team members;
-Working with PM to keep on track with the project plan and timeline;
-Working closely with backend team to ensure that website functionality meets project requirements;
-Participated in all-hands meeting across multiple frontend teams within company to discuss new feature implementation;
-Participated in the initial wave of developers learning and implementing the React.JS library and rewriting legacy code to React framework.
+
+Aligorex IT Services, Riga | Graphic web designer, Frontend developer
+February 2014 – August 2016
+
+Skills
+HTML5
+CSS3 (LESS)
+JavaScript
+TypeScript
+React JS
+GIT
+
+Projects
+Expenses app
+Money Manager makes managing personal finances as easy as pie! Now easily record your personal and business financial transactions, generate spending reports...
+
+Contact
