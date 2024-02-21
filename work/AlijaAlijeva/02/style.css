@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+.header_wrap {
+    padding: 20px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #0F1726;
+    justify-content: space-around;
+}
+.header_logo {
+    align-items: center;
+
+}
+.header ul{
+    font-size: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    text-align: center;
+}
+header li {
+    margin-right: 30px;
+}
+header a {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+#GitHub {
+    padding-right: 20px;
+}
+.title {
+    width: 100%;
+    background-color: #0F1726;
+}
+.title_wrap {
+    padding: 30px 20px;
+    margin-left: 5%;
+}
+.title_text {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.colortext {
+    color: #1572B6;
+    font-weight: 900;
+}
+.resume {
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 13px 15px;
+    cursor: pointer;
+}
+.about_me {
+    background-color: #0F1726;
+}
+.about_me_wrap {
+    padding: 120px 112px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_about_me {
+    padding-right: 70px;
+    width: 50%;
+}
+.title_me {
+    padding-bottom: 40px;
+    font-size: 64px;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+}
+.text_me {
+    color: #FFF;
+    font-size: 26px;
+}
+.text_me span{
+    color: #358ECF;
+}
+.text_me p {
+    padding-top: 20px;
+}
+.elipse {
+    background: #358ECF;
+    clip-path: circle(50%);
+    height: 20em;
+    width: 20em;
+}
+.image_elipse {
+    background: #358fcf7e;
+    clip-path: circle(50%);
+    height: 20em;
+    width: 18em;
+    overflow: hidden;
+    position: relative;
+    top: -50%;
+    right: 20%;
+    border-radius: 50%;
+}
+.my_photo {
+    max-width: 100%;
+    height: auto;
+}
