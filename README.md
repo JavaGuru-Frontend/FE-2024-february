@@ -16,7 +16,7 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 ## Выполнение работ
 | Student               | Github           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 
 | :-------------------- | :--------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
-|                       | AleksejsLalins   |   |   |   |   |   |   |   |   |   |    | 
+|                       | AleksejsLalins   | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | AlijAalijeva     | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | aMADsss          | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | Ruslans          |   |   |   |   |   |   |   |   |   |    | 
