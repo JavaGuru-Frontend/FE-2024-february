@@ -1,0 +1,51 @@
+body{
+    background-color: black ;
+}
+.marginauto{
+    margin: 10px auto 20px;
+    display: block;
+}
+p{
+    color: white;
+    font-family: arial black;
+    font-style:initial ;
+    font-size:xx-large;
+    font-weight: 600;
+}
+span{
+    color: blue;
+}
+h1{
+    color: white;
+    font-family: arial black;
+    font-size: xx-large;
+    
+}
+
+.paragraph{
+    color: white;
+    font-style: initial;
+        font-size: large;
+        font-weight: 600;
+
+}
+h2{
+    color: white;
+        font-family: arial black;
+        font-size: xx-large;
+}
+li{
+    color: white;
+        font-style: initial;
+        font-size: large;
+        font-weight: 600;
+}
+button{
+    color:white;
+    background-color: blue;
+    font-size: 16px;
+}
+.float{
+    float: right;
+    padding: padding: 0 20px 20px 0; 0 20px 20px 0;;
+}
