@@ -1,8 +1,13 @@
 body {
-    background-image: url(C:\Users\rusla\OneDrive\Documents\GitHub\FE-2024-february\Work\RuslansAmosovs\RAbackground.jpg.jpg);
-}   
-
-body {
-    color: ;
-    background-color: darkred;
+    color: white;
+    background-color: rgba(9,14,24,1);
 }
+    p {
+        color: rgba(21,114,182,1);
+    }
+
+        a {
+            color: white;
+        }
+
+        
