@@ -1,23 +1,128 @@
-<!DOCTYPE html> <!-- вводим "!" выбираем Emmet abbreviation, создается шапка HTML --> <!-- выделяем комментарий и нажимаем shift+alt+a -->
+<!DOCTYPE html> 
+<!-- вводим "!" выбираем Emmet abbreviation, создается шапка HTML --> <!-- выделяем комментарий и нажимаем shift+alt+a -->
+<!-- https://docs.emmet.io/cheat-sheet/ emmet cheat codes -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Это мои записи</title>
+    <link rel="stylesheet" href="draftcss.css"> <!-- Подключение внешнего файла стилей --> 
+    <!-- подключаем в конце тэга head -->
+    <style> /* Инлайн стиль для примера блока ниже в записях */
+    .block1 { 
+        width: 200px; 
+        background: #ccc;
+        padding: 5px;
+        padding-right: 20px; 
+        border: solid 1px black; 
+        float: left;
+       }
+    </style>
+    <!-- инлайн стиль, почему стоит избегать встроенных инлайн стилей - https://habr.com/ru/companies/htmlacademy/articles/573768/ -->
 </head>
 <body>
-    <ol>Список</ol>
-        <li></li> <!-- если надо много одинаковых тэгов, пишем тэг без <> и *на кол-во - "li*12" -->
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <h1>Это мои записи</h1> <!-- H1 только 1 на страницу. Причем он всегда должен быть на странице по правилам продвижения сайтов. -->
+    <br>
+    <hr>
+    <br>
+    <h2>Форматирование текста</h2>
+    <h3>Second</h3>
+    <h4>Third</h4>
+    <h5>Fourth</h5>
+    <p> <b>Welcome to my digital space!</b> <strong>I'm Aleksejs Lalins</strong>, a <u>passionate</u> front-end developer based in the vibrant city of Riga. With a blend of creativity and coding <s>skills</s>, I craft visually appealing and user-friendly websites. <mark>My journey</mark> began with a curiosity for the digital realm, and it has evolved into a commitment to delivering innovative web solutions. Explore my projects, delve into my skills, and let's connect to turn your ideas into captivating online experiences.</p> 
+    <!-- тэг <b></b> для выделения текста полу жирным шрифтом --> 
+    <!-- тэг <strong></strong> для выделения текста жирным шрифтом --> 
+    <!-- тэг <mark></mark> для выделения текста --> 
+    <!-- тэг <u></u> для подчёркивания текста --> 
+    <!-- тэг <s></s> для зачёркивания текста -->
+    <p> <i>Greetings! I'm Aleksejs Lalins</i> <sup>2</sup> <sub>3</sub>, a <em>dedicated</em> front-end developer on a mission to bring ideas to life through elegant and functional web design. Based in the picturesque city of Riga, I specialize in crafting immersive online experiences. From concept to code, each project is an opportunity to showcase the perfect blend of creativity and technical expertise. Join me on a journey where innovation meets design, and let's build something extraordinary together.</p> 
+    <!-- <i></i> для выделения текста курсивом --> 
+    <!-- <em></em> для логического выделения текста курсивом --> 
+    <!-- параграфы, для переноса одной строки в разделённые для читаемости нажимаем view-word wrap -->
+    <!-- <sup></sup> <sub></sub> нижний и верхний регистр --> 
+    <!-- <br> для переноса строки --> 
+    <!-- <span></span> выделения текста для использования в css -->
+    <br>
+    <hr> <!-- Горизонтальная линия -->
+    <br>
+    <ol>Пронумерованный Список <!-- type-тип нумерации, start-с какого номера начать --> <!-- https://webref.ru/html/ol -->
+        <li>First</li> <!-- если надо много одинаковых тэгов, пишем тэг без <> и *на кол-во - "li*12" -->
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+    
+    <ul>Не пронумерованный список
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ul>
+    <br>
+    <hr> <!-- Горизонтальная линия -->
+    <br>
+    <div>  <!-- <div></div> это блок -->
+        <img src="img/logo.png" alt="logo">  <!-- <img src="img/logo.png" alt="logo"> вставка картинки с локальной папки или из интернета -->
+        <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1908636980.1709078400&semt=ais" alt="logo">
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+        <a href="https://webref.ru/html/div">Ссылка</a> <!-- <a href=""></a> он же a - создает ссылки -->
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="block1"> <!-- инлайн стиль, почему стоит избегать встроенных инлайн стилей - https://habr.com/ru/companies/htmlacademy/articles/573768/ -->
+        Конкреция пространственно трансформирует пирогенный псевдомицелий, хотя этот факт нуждается в дальнейшей тщательной экспериментальной проверке.
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div>
+            <h2>Семантические тэги</h2>
+            <h3>https://msiter.ru/tutorials/html5/semantic_elements</h3>
+            <h4>Для того чтобы показать тег на странице, вместо знаков < и > надо использовать & lt; и & gt; без пробелов</h4> <!-- Для того чтобы показать тег на странице, вместо знаков < и > надо использовать &lt; и &gt; -->
+        <nav>
+        <ol>
+            <li>&lt;header&gt; &lt;/header&gt; Шапка сайта</li> <!-- Шапка сайта -->
+            <li>&lt;footer&gt; &lt;/footer&gt;</li> 
+            <li>&lt;section&gt; &lt;/section&gt;секции на сайте</li> <!-- секции на сайте -->
+            <li>&lt;article&gt; &lt;/article&gt; оформление записи в блоге</li> <!-- оформление записи в блоге -->
+            <li>&lt;details&gt; &lt;/details&gt;</li>
+            <li>&lt;nav&gt; &lt;/nav&gt; навигационное меню</li> <!-- навигационное меню -->
+            <li>&lt;aside&gt; &lt;/aside&gt; боковая колонка/блок с информацией</li> <!-- боковая колонка/блок с информацией -->
+            <li>&lt;main&gt; &lt;/main&gt; основное содержание документа/сайта</li> <!-- основное содержание документа/сайта --> 
+                    <!-- <body>
+                            <main>
+                            </main>
+                         </body>
+ -->
+        </ol>
+        </nav>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h2>Ссылки для CSS</h2>
+        <ol>
+            <li><a href="https://www.rapidtables.com/web/css/css-color.html">Таблица цветов</a></li>
+            <li><a href="https://webref.ru/html/attr/style"></a>атрибут style</li>
+            <li><a href="https://webref.ru/css">справочник css</a></li>
+            <li><a href="https://colorscheme.ru/color-converter.html">конвертор цветов</a></li>
+            <li><a href="https://sitehere.ru/tablica-stilej-css-v-udobnom-vide">Таблица стилей CSS в удобном виде</a></li>
+            <li><a href="https://learn.javascript.ru/css-selectors">CSS селекторы</a></li>
+        </ol>
+
+    <h2>CSS Селекторы</h2>
+    <br>
+    <hr>
+    <br>
 </body>
-</html> 
+</html>

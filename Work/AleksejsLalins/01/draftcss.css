@@ -1,0 +1,7 @@
+@import "draftcss2.css"; /* когда есть другие css файлы и надо их всё подключить, делаем это через импорт в главном файле css */
+
+body {
+   background-color: blanchedalmond; 
+}
+
+/* https://www.rapidtables.com/web/css/css-color.html - таблица цветов */
