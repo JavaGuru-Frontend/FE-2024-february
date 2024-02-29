@@ -16,18 +16,18 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 ## Выполнение работ
 | Student               | Github           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 
 | :-------------------- | :--------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
-|                       | AleksejsLalins   | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | AlijAalijeva     | ✓ |   |   |   |   |   |   |   |   |    | 
+|                       | AleksejsLalins   | ✓ | ✓ |   |   |   |   |   |   |   |    | 
+|                       | AlijAalijeva     | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 |                       | aMADsss          | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | Ruslans          |   |   |   |   |   |   |   |   |   |    | 
+|                       | Ruslans          |   | ✓ |   |   |   |   |   |   |   |    | 
 |                       | Argyreianervosa  | ? |   |   |   |   |   |   |   |   |    | 
-|                       | Anna Bernadska   | ✓ |   |   |   |   |   |   |   |   |    | 
+|                       | Anna Bernadska   | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 |                       | Edward           | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | LadaFjodorova    | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | neontone         | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | pjotr grezmanis  | ? |   |   |   |   |   |   |   |   |    | 
 |                       | Marina Kuznecova | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | yehor10          | ✓ |   |   |   |   |   |   |   |   |    | 
+|                       | yehor10          | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 |                       | YevgeniyaKrp     |   |   |   |   |   |   |   |   |   |    | 
 |                       | YUL373           |   |   |   |   |   |   |   |   |   |    | 
