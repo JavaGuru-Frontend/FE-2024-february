@@ -1,7 +1,89 @@
 @import "draftcss2.css"; /* когда есть другие css файлы и надо их всё подключить, делаем это через импорт в главном файле css */
 
+* { /* так применяем это правило ко всем стилям, звёздочка селектор всего */
+    box-sizing: border-box;
+}
+
+
 body {
    background-color: blanchedalmond; 
 }
 
-/* https://www.rapidtables.com/web/css/css-color.html - таблица цветов */
+/*https://www.rapidtables.com/web/css/css-color.html - таблица цветов
+https://www.rapidtables.com/web/css/css-color.html - Таблица цветов
+https://webref.ru/html/attr/style - атрибут style
+https://webref.ru/css" - справочник css
+https://colorscheme.ru/color-converter.html - конвертор цветов
+https://sitehere.ru/tablica-stilej-css-v-udobnom-vide - Таблица стилей CSS в удобном виде
+https://learn.javascript.ru/css-selectors - CSS селекторы */
+
+
+h1 {                /* стиль задан тэгом */
+    color:brown;
+    text-align: center;
+}
+
+.class2 {           /* стиль задан классом, название класса придумываем сами */
+    color: blue;
+    text-align: center; /* При помощи EMMET можно вводить просто tac+Enter */
+}
+
+#first {            /* стиль задан уникальным идент-ром, название класса придумываем сами,для уникал. ид. символ # */
+    color:aqua; /* просто название цвета */
+    padding-left: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#second {            /* стиль задан уникальным идент-ром, название класса придумываем сами,для уникал. ид. символ # */
+    color:rgb(230, 112, 16); /* RGB код цвета */
+    padding-left: 50px;
+    text-decoration: overline;
+}
+
+#third {            /* стиль задан уникальным идент-ром, название класса придумываем сами,для уникал. ид. символ # */
+    color:#000000; /* HEX код цвета */
+    padding-left: 100px;
+    text-decoration: underline;
+}
+
+#fourth {            /* стиль задан уникальным идент-ром, название класса придумываем сами,для уникал. ид. символ # */
+    color:rgba(255, 0, 0, 0.479); /* RGBA - ALFA канал отвечает за прозрачность */
+    padding-left: 150px;
+}
+
+.text {             /* Задан отдельный класс стиля для фрагмента текста, через тэг SPAN */
+    color:blueviolet;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.block2 img {
+    width: 500px;
+    height: auto;
+}
+
+.block2 h2 {
+    text-align: center;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color:blueviolet;
+    padding-left: 20px; /* можно задавать каждый параметр отдельно */
+    padding-top: 20px; /* можно задавать каждый параметр отдельно */
+    /*padding:20px; можно задать одну величину всем 4ем отступам */
+    /*padding:20px 50px; комбинированно - можно задать одну величину верх-низ и вторую лево-право*/
+    /*padding:20px 50px 40px 70px; комбинированно - сверху справа снизу слева, по часовой стрелке начиная сверху*/
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border: 5px solid red; /* Лучше всё задавать в одной строке */
+    margin: 20px; /* Общий наружний отступ со всех сторон */
+}
+
+.types h2 {
+    text-align: center;
+}
