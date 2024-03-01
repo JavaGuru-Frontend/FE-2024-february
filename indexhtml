@@ -18,5 +18,9 @@
              <a href="#"target="blank"contact>
              </header>
              <main>
-                <h1> hollo world!</h1>
-                
+                <h1>Hollo world!</h1>
+                <div>
+                    <h2 class="title">abaut mi</h2>
+                    <p>
+                        <br>
+                </div>
