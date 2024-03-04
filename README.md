@@ -29,5 +29,5 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 |                       | Marina Kuznecova | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | yehor10          | ✓ | ✓ |   |   |   |   |   |   |   |    | 
-|                       | YevgeniyaKrp     |   |   |   |   |   |   |   |   |   |    | 
+|                       | YevgeniyaKrp     | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 |                       | YUL373           |   |   |   |   |   |   |   |   |   |    | 
