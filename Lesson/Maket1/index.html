@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header" id="test">
+            <img class="header__logo" src="assets/logo.png" alt="">
+            <div class="header__links">
+                <a href="http://" target="_blank" rel="noopener noreferrer">About</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Skills</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Projects</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Contacts</a>
+            </div>
+            <div class="header__social">
+                <img src="assets/LinkedInIcon.png" alt="">
+                <img src="assets/GithubIcon.png" alt="">
+            </div>
+            <button type="button" onclick="change()">Change</button>
+        </header>
+
+        <section class="main">
+            <h1 class="main__title">
+                <span>Hello world! I’m Anastasia Babika, a <mark>Front-end developer</mark>, based in Riga.</span></h1>
+            <button class="main__btn">Check my resume</button>
+        </section>
+
+        <section class="about-me" >
+            <div class="about-me__text">
+                <h2>About Me</h2>
+                <p>I took part in the development of modern interfaces, creation of <mark>UI solutions</mark> that meet the needs of users while studying new methodologies and empathizing with users.</p>
+                <br><br>
+                <p>I had an opportunity to work on the design of different projects including <mark>websites</mark> and <mark>mobile applications</mark> for marketing as well as participated in other challenges.</p>
+            </div>
+            <div class="about-me__img">
+                <img src="assets/mainImg.png" alt="">
+            </div>
+        </section>
+
+        <section class="title">
+            <div class="title__text">Skills</div>
+        </section>
+
+        <section class="skills">
+            <div class="skills__items">
+                <img src="assets/html.svg">
+                html
+            </div>
+            <div class="skills__items">
+                <img src="assets/css.svg">
+                css
+            </div>
+            <div class="skills__items">
+                <img src="assets/js.svg">
+                js
+            </div>
+            <div class="skills__items">
+                <img src="assets/git.svg">
+                git
+            </div>
+            <div class="skills__items">
+                <img src="assets/github.svg">
+                github
+            </div>
+            <div class="skills__items">
+                <img src="assets/react.svg">
+                reactJS
+            </div>
+        </section>
+
+        <section class="title">
+            <div class="title__text">Projects</div>
+        </section>
+
+        <section class="title">
+            <div class="title__text">Contacts</div>
+        </section>
+    </div>
 </body>
 </html>

@@ -1,0 +1,17 @@
+.about-me {
+    display: flex;
+
+    align-items: center;
+}
+
+.about-me__text {
+    width: 60%;
+}
+
+.about-me__img {
+    width: 40%;
+}
+
+.about-me__img img {
+    height: 100px;
+}
