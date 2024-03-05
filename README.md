@@ -10,7 +10,7 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 ## Домашние работы 
 [01](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/01/01/homework.md) 
 [02](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/02/homework.md)  
-[03]()  
+[03](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/03/homework.md)  
 [04]()  
 
 ## Макеты
