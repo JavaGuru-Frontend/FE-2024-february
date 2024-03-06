@@ -1,0 +1,107 @@
+body {
+    color: white;
+    background-color: #0d0d0d;
+    font-family: "Lato", sans-serif;
+    width:80vmin;
+    margin: 0 auto;
+}
+/* *{
+    border:solid 1px red!important;
+} */
+header {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+table {
+    border-spacing: 10px;
+  }
+  
+td {
+    width:15vmin; 
+    height:5vmin; 
+    padding: 10px;
+    background-color: #0F1726;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+form {
+    background-color: #0F1726;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: #0F1726;
+    border: 1px solid #989898;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+input[type=textarea], select {
+    width: 100%;
+    padding: 0px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: #0F1726;
+    border: 1px solid #989898;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 80px;    
+}  
+
+input[type=submit] {
+    width: 100%;
+    background-color: #358ECF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+  
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  
+
+  
+
+  
