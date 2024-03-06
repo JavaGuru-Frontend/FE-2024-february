@@ -1,0 +1,14 @@
+body 
+{ color: white;
+    background-color:gray;
+
+}
+*{
+    border:solid 1px red!important;
+}
+.title {
+    color: gold;
+}
+.elevator{
+    color: blue;
+}
