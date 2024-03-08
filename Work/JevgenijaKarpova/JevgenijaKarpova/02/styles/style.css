@@ -1,0 +1,23 @@
+body {
+    color: darkslategray;
+    background-color: white;
+}
+/*00100 */ 
+#aboutMe {
+    font-size: 70px;
+}
+
+/* 00010 */
+.title {
+    color: darkslategray;
+}
+
+/* 00010 */
+.test {
+    color: darkgray;
+}
+
+/* 10001 */
+h1 {
+    color: gray!important;
+} 

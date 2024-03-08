@@ -1,3 +1,7 @@
+
+*{
+    border: 2px solid red;
+}
 body {
     color:white;
     background-color: black;
@@ -5,14 +9,23 @@ body {
 
 h1 {
     color: blueviolet;
+    padding-left: 60px;
 }
 
-p {
-    color: rgb(87, 87, 214);
-    font-size: 20px;
+.texst{
+    width: 550px;
+    padding left: ;: 60px;
+    margin: 60px;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
     font-weight: 600;
 }
-
+.img {
+    
+    margin: 60px;
+    display: inline-block;
+}
 
 table {
 width: 800px; 
@@ -27,8 +40,14 @@ h2 {
     font-size: 60px;
 }
 
+
 .title {
     color:chartreuse;
+    padding-left: 60px;
+}
+
+.test1 {
+    text-align: center;
 }
 
 
