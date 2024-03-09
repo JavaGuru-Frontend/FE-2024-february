@@ -1,0 +1,12 @@
+@import url(reset.css);
+
+
+
+* {
+
+    border: solid 1px red;
+    box-sizing: border-box; in !important
+}
+body {
+    background-color: aqua;
+}
