@@ -1,12 +1,10 @@
 @import url(reset.css);
+@import url(header.css);
+@import url(main.css);
+@import url(about-me.css);
+@import url(title.css);
+@import url(skills.css);
 
-
-
-* {
-
-    border: solid 1px red;
-    box-sizing: border-box; in !important
-}
 body {
-    background-color: aqua;
+    background-color: rgb(171, 171, 207);
 }

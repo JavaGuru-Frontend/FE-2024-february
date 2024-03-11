@@ -1,0 +1,23 @@
+.about-me {
+    display: flex;
+    justify-content: center
+    
+}
+
+.about-me__text {
+    display: flex;
+    align-items: center;
+    width: 60%;
+
+}
+
+.about-me__img {
+    
+    width: 40%;
+
+}
+
+.about-me__img img {
+    
+    height: 220px;
+}
