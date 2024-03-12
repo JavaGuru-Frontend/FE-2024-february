@@ -20,18 +20,19 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 ## Выполнение работ
 | Student               | Github           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 
 | :-------------------- | :--------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
-|                       | AleksejsLalins   | ✓ | ✓ |   |   |   |   |   |   |   |    | 
-|                       | AlijAalijeva     | ✓ | ✓ |   |   |   |   |   |   |   |    | 
-|                       | aMADsss          | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | Ruslans          |   | ✓ |   |   |   |   |   |   |   |    | 
+| AleksejsLalins        | AleksejsLalins   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
+| AlijaAlijeva          | AlijAalijeva     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
+| AnnaBernadska         | Anna Bernadska   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
+| AntonsKorenevskis     | neontone         | ✓ |   | 🔥 |   |   |   |   |   |   |    | 
+| JevgenijaKarpova      | YevgeniyaKrp     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
+| JevgenijsVoronovs     |                  | ✓ | ✓ |   |   |   |   |   |   |   |    | 
+| MarinaKuznecova       | Marina Kuznecova | ✓ |   | / |   |   |   |   |   |   |    | 
+| RuslansAmosovs        | Ruslans          |   | ✓ | ? |   |   |   |   |   |   |    | 
+| SvetlanaDaugele       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
+| SvetlanaPokatilova    | aMADsss          | ✓ |   | ? |   |   |   |   |   |   |    | 
+| YehorViendin          | yehor10          | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 |                       | Argyreianervosa  | ? |   |   |   |   |   |   |   |   |    | 
-|                       | Anna Bernadska   | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 |                       | Edward           | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | LadaFjodorova    | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | neontone         | ✓ |   |   |   |   |   |   |   |   |    | 
 |                       | pjotr grezmanis  | ? |   |   |   |   |   |   |   |   |    | 
-|                       | Marina Kuznecova | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | yehor10          | ✓ | ✓ |   |   |   |   |   |   |   |    | 
-|                       | YevgeniyaKrp     | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 |                       | YUL373           |   |   |   |   |   |   |   |   |   |    | 
