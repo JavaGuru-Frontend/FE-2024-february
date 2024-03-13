@@ -23,11 +23,11 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 | AleksejsLalins        | AleksejsLalins   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | AlijaAlijeva          | AlijAalijeva     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | AnnaBernadska         | Anna Bernadska   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
-| AntonsKorenevskis     | neontone         | ✓ |   | 🔥 |   |   |   |   |   |   |    | 
+| AntonsKorenevskis     | neontone         | ✓ | ✓ | 🔥 |   |   |   |   |   |   |   | 
 | JevgenijaKarpova      | YevgeniyaKrp     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | JevgenijsVoronovs     |                  | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 | MarinaKuznecova       | Marina Kuznecova | ✓ |   | / |   |   |   |   |   |   |    | 
-| RuslansAmosovs        | Ruslans          |   | ✓ | ? |   |   |   |   |   |   |    | 
+| RuslansAmosovs        | Ruslans          |   | ✓ | / |   |   |   |   |   |   |    | 
 | SvetlanaDaugele       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
 | SvetlanaPokatilova    | aMADsss          | ✓ |   | ? |   |   |   |   |   |   |    | 
 | YehorViendin          | yehor10          | ✓ | ✓ | / |   |   |   |   |   |   |    | 
