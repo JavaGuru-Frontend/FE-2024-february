@@ -11,7 +11,7 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 [01](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/01/01/homework.md)  
 [02](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/02/homework.md)  
 [03](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/03/homework.md)  
-[04]()  
+[04](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/04/homework.md)  
 
 ## Макеты
 [1](https://www.figma.com/file/ZQow7y7MzPV5H488WiuteJ/Portfolio?type=design&mode=design&t=9ZFy6trMqi1HXqrR-1)   
@@ -23,11 +23,11 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 | AleksejsLalins        | AleksejsLalins   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | AlijaAlijeva          | AlijAalijeva     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | AnnaBernadska         | Anna Bernadska   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
-| AntonsKorenevskis     | neontone         | ✓ |   | 🔥 |   |   |   |   |   |   |    | 
+| AntonsKorenevskis     | neontone         | ✓ | ✓ | 🔥 |   |   |   |   |   |   |   | 
 | JevgenijaKarpova      | YevgeniyaKrp     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | JevgenijsVoronovs     |                  | ✓ | ✓ |   |   |   |   |   |   |   |    | 
 | MarinaKuznecova       | Marina Kuznecova | ✓ |   | / |   |   |   |   |   |   |    | 
-| RuslansAmosovs        | Ruslans          |   | ✓ | ? |   |   |   |   |   |   |    | 
+| RuslansAmosovs        | Ruslans          |   | ✓ | / |   |   |   |   |   |   |    | 
 | SvetlanaDaugele       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
 | SvetlanaPokatilova    | aMADsss          | ✓ |   | ? |   |   |   |   |   |   |    | 
 | YehorViendin          | yehor10          | ✓ | ✓ | / |   |   |   |   |   |   |    | 
