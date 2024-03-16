@@ -8,3 +8,14 @@
 body {
     background-color: rgb(171, 171, 207);
 }
+
+* {
+    border: solid 1px red !important;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1142px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
