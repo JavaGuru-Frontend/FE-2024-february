@@ -18,3 +18,7 @@
 .skills__items img {
     margin-right: 20px;
 }
+
+/*.skills__items html:hover {
+    background-position: -60px 0px;
+}

@@ -1,12 +1,15 @@
-<!DOCTYPE html> <!--I hope I did right ways with intup src.
-                    I rigth this code waching our lesson, and I think I have
-                some problems with html becouse some of things looks not so
-                god as yours version. This block About me looks a bit strange
-                when you open it in browser. Our meaby its becouse of my picture
-                 I didnt quit understand. And block skills as wel looks very strange 
-                items-svg didnt color, and I also think the problem is in html.
-                but im not sure.
-                I didnt finish this work, but i will, here is alot to lern and a lot to do.-->
+<!DOCTYPE html>                                                            <!--1-I put all images in assets folder.
+                                                                            2-Change img src.
+                                                                            3-add container.
+                                                                            4-fix my profile img with flexbox.
+                                                                            5-fix section class skils.
+                                                                            6-add file common in css.
+                                                                            Done and fix first 3 homeworks.
+                                                                            lesson 4.
+                                                                            1-I add linear-gradient in body as a example.
+                                                                            2-
+                                                                            -->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,82 +19,82 @@
 
 </head>
 <body>
-    <header class="header">
-        <img class="header__logo" src="..\..\..\logo.png" alt="logo">
-        <div class="header__links">
-            <a href="http:\\" target="_blank" rel="">About</a>
-            <a href="http:\\" target="_blank" rel="">Skills</a>
-            <a href="http:\\" target="_blank" rel="">Projects</a>
-            <a href="http:\\" target="_blank" rel="">Contacts</a>
-        </div>
-        <div class="header__social">
-            <img src="..\..\..\GitHub.logo.png" alt="GitHubIcon">
-            <img src="..\..\..\Linkedin.logo.png" alt="LinkedinIcon">
-        </div>
-     </header>
-        <section class="main">
-            <h1 class="main__title">Hello world! I'm Ruslans Amosovs a <mark>Truck driver-operator</mark>,based in Norway.</h1>
-            <button class="main__btn">Check my resume</button>
-        </section>
-            <h2>About me</h2>
-        <section class="about-me">
-            <div class="about-me__text">
-                <!--<h2>About me</h2>--->
-                    <p>I'm a team leader driver operator with more than 5 years of experience on scandic roads.
-                    I'm a very positive and nice guy! I like to work in a team, and I'm always open to new contact with new people.
-                    As a team leader, I learn how to work with people, understand people, and help people do their work better and faster with less stress.
-                    My strong side is, that I like to challenge myself for something new.
-                    Now I challenge myself with a new skill Front-end Developer.</p>
-                <div class="about-me__img">
-                    <img src="..\..\..\RAProfile-Picture.jpg">
-                </div>
+    <div class="container"> <!--container-->
+        <header class="header">
+            <img class="header__logo" src="assets/logo.png" alt="logo">
+            <div class="header__links">
+                <a href="http:\\" target="_blank" rel="">About</a>
+                <a href="http:\\" target="_blank" rel="">Skills</a>
+                <a href="http:\\" target="_blank" rel="">Projects</a>
+                <a href="http:\\" target="_blank" rel="">Contacts</a>
             </div>
-
-        </section>
-
-        <section class="title">
-            <div class="title__text">Skills</div>
-        </section>
-
-                <section class="skills"> <!--why colors only blocks but not items-svg,
-                                       and when I center items-svg my text is centering but not-svg?-->
-                    <div class="skills__items">
-                        html
-                    </div>
-                        <img src="..\..\..\html.svg">
-                    <div class="skills__items">
-                        css
-                    </div>
-                        <img src="..\..\..\css.svg">
-                    <div class="skills__items">
-                        js
-                    </div>
-                        <img src="..\..\..\js.svg">
-                    <div class="skills__items">
-                        git
-                    </div>
-                        <img src="..\..\..\git.svg">
-                    <div class="skills__items">
-                        github
-                    </div>
-                        <img src="..\..\..\github.svg">
-                    <div class="skills__items">
-                        reactJS
-                    </div>
-                        <img src="..\..\..\react.svg">
-                </section>
-                    
-                    
-
+            <div class="header__social">
+                <img src="assets/Github.logo.png" alt="GitHubIcon">
+                <img src="assets/LinkedIn.logo.png" alt="LinkedinIcon">
+            </div>
         
+        </header>
+            <section class="main">
+                <h1 class="main__title">Hello world! I'm Ruslans Amosovs a <mark>Truck driver-operator</mark>,based in Norway.</h1>
+                <button class="main__btn">Check my resume</button>
+            </section>
 
-        <section class="title">
-            <div class="title__text">Projects</div>
-        </section>
+            <section class="about-me">
+                <div class="about-me__text">
+                    <h2>About me</h2>
+                        <p>I'm a team leader driver operator with more than 5 years of experience on scandic roads.
+                        I'm a very positive and nice guy! I like to work in a team, and I'm always open to new contact with new people.
+                        As a team leader, I learn how to work with people, understand people, and help people do their work better and faster with less stress.
+                        My strong side is, that I like to challenge myself for something new.
+                        Now I challenge myself with a new skill Front-end Developer.</p>
+                </div>
+                    <div class="about-me__img">
+                        <img src="assets/RAProfile-Picture.jpg">
+                    </div>
+            </section>
 
-        <section class="title">
-            <div class="title__text">Contacts</div>
-        </section>
+            <section class="title">
+                <div class="title__text">Skills</div>
+            </section>
+                    <section class="skills">
+                        <div class="skills__items">
+                            <img src="assets/html.svg">
+                            html
+                        </div>
+                        <div class="skills__items">
+                            <img src="assets/css.svg">
+                            css
+                        </div>
+                        <div class="skills__items">
+                            <img src="assets/js.svg">
+                            js
+                        </div>
+                        <div class="skills__items">
+                            <img src="assets/git.svg">
+                            git
+                        </div>
+                        <div class="skills__items">
+                            <img src="assets/github.svg">
+                            github
+                        </div>
+                        <div class="skills__items">
+                            <img src="assets/react.svg">
+                            reactJS
+                        </div>
+                    </section>
+                        
+                        
+
+            
+
+            <section class="title">
+                <div class="title__text">Projects</div>
+            </section>
+
+            <section class="title">
+                <div class="title__text">Contacts</div>
+            </section>
+    </div>
     
     
 </body>
