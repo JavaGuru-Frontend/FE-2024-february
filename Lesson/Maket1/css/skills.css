@@ -1,0 +1,21 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: lightblue; */
+}
+
+.skills__items {
+    width: 31%;
+    background-color: darkblue;
+    color: white;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.skills__items img  {
+    margin-right: 10px;
+}
+

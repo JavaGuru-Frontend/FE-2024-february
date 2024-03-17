@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 body {
     background-color: lightgray;
@@ -7,16 +7,18 @@ body {
 
 
 .boxModel {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    /* width: 100px; */
+    /* height: 100px; */
     background-color: grey;
     /* margin: 30px; */
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 30px;
-    margin-bottom: 50px;
+    /* padding: 30px; */
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    /* margin-right: 30px; */
+    /* margin-bottom: 50px; */
 
-    display: inline-block;
+    /* display: inline-block; */
     /* box-sizing: border-box;
     background-color: aqua; 
     width: 50vw;
@@ -33,7 +35,10 @@ body {
     height: 100px;
     background-color: rgb(70, 224, 4);
     margin: 30px;
-    display: inline-block;
+    padding: 30px;
+    box-sizing: border-box;
+    /* margin: 30px; */
+    /* display: inline-block; */
     /* box-sizing: border-box;
     background-color: red;
     width: 200px;
