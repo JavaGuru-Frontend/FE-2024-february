@@ -1,16 +1,17 @@
-<!-- zeka RuslansAmosovs 
+/* <!-- zeka RuslansAmosovs  */
 
 
 body {
     color: white;
     background-color: rgba(9,14,24,1);
 }
-    p {
-        color: rgba(21,114,182,1);
-    }
 
-        a {
-            color: white;
-        }
+p {
+    color: rgba(21,114,182,1);
+}
+
+a {
+    color: white;
+}
 
         

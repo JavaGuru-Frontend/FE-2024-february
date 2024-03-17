@@ -1,0 +1,18 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title__text {
+    font-size: 12px;
+}
+
+.title__text_warning {
+    font-size: 40px;
+    color: red;
+}
+
+.title__text_success {
+    font-size: 20px;
+    color: green;
+}
