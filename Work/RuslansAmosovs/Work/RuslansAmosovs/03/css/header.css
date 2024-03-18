@@ -17,3 +17,12 @@ header {
 .header__social a {
     margin: 0px 20px;
 }
+
+.sprite { 
+    background: url('assets/.sprite.png')
+    no-repeat;
+} 
+.sprite.github {
+     background-position: 0 0; width: 16px; height: 16px; 
+    } 
+    /* I try to make sprite but it didnt work./*
