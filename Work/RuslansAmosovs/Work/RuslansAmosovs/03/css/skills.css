@@ -1,0 +1,24 @@
+.skills {
+    display: flex;
+    background-color: rgb(168, 168, 213);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__items {
+    width: 25%;
+    background-color: darkblue;
+    color: white;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__items img {
+    margin-right: 20px;
+}
+
+/*.skills__items html:hover {
+    background-position: -60px 0px;
+}

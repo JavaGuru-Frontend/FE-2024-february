@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main__title {
+    font-size: 35px;
+    padding: 35px 0px;
+    margin: 20px 0px;
+
+}
+
+.main__btn {
+
+}
