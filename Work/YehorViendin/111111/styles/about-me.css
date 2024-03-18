@@ -1,0 +1,23 @@
+.about-me{
+    display: flex;
+    align-items: center;
+
+}
+.about-me__text{
+    width: 60%;
+font-size: 40px;
+color: #FFFFFF;
+padding: 40px 50px;
+    margin: 20px 0px;
+}
+.about-me__img img{
+    height: 100%;
+width: 53%;
+}
+.spanabme{
+    color: #358ECF;
+    
+}
+h2{
+    font-weight:bolder;
+}
