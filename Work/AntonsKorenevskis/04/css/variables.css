@@ -1,0 +1,13 @@
+:root {
+    --main-bg-color: #0d0d0d;
+    --main-text-color: #FFFFFF; 
+    --selected-text-color: #1572B6;
+    --skill-block-color: #0F1726;
+    --project-block-color: #0F1726;
+    --project-text-color: #C9C9C9;
+    --main-btn-color: #FFFFFF;
+    --contacts-btn-color: #0F1726;
+    --placeholder-color: #CEC7C7;
+    --contacts-form-color: #358ECF;
+}
+
