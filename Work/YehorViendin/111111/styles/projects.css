@@ -1,0 +1,42 @@
+.title__text{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 20px;
+}
+.projects{
+    
+    display: flex;
+        flex-wrap: nowrap;
+        background-color: #0F1726;
+        
+        margin: 20px 20px;
+    
+}
+
+.project__text {
+        font-family: "Lato", sans-serif;
+        width: 75%;
+        padding: 20px 30px;
+}
+
+.title11{
+    
+    font-size: 30px;
+        color: #FFFFFF;
+      
+
+}
+p{
+    margin-top: 20px;
+font-size: 20px;
+    color: #FFFFFF;
+}
+.projects__img {
+    width: 25%;
+    padding: 20px;
+}
+
+.projects__img img {
+    width: 100%;
+}
