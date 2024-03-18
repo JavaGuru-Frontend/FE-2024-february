@@ -1,6 +1,5 @@
 .about-me {
     display: flex;
-
     align-items: center;
 }
 
@@ -14,4 +13,5 @@
 
 .about-me__img img {
     height: 200px;
+    width: 200px;
 }
