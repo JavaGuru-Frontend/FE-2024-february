@@ -3,9 +3,13 @@
     align-items: center;
     
 
+    
+
 }
 .about-me__text{
     width: 60%;
+    
+font-size:40px;
     
 font-size:40px;
 color: #FFFFFF;
@@ -18,6 +22,9 @@ width: 75%;
     height: 305px;
     background-size: contain;
     background-repeat: no-repeat;
+.about-me__img img{
+    
+width: 53%;
 }
 .spanabme{
     color: #358ECF;
