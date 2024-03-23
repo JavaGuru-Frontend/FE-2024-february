@@ -3,15 +3,25 @@
     align-items: center;
     
 
+    
+
 }
 .about-me__text{
     width: 60%;
+    
+font-size:40px;
     
 font-size:40px;
 color: #FFFFFF;
 padding: 40px 50px;
     margin: 20px 0px;
 }
+.about-me__img {
+  background-image: url(../img/photo_5391184692906154305_y-transformed.png);
+width: 75%;
+    height: 305px;
+    background-size: contain;
+    background-repeat: no-repeat;
 .about-me__img img{
     
 width: 53%;
