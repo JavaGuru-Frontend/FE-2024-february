@@ -1,26 +1,26 @@
 .about-me {
+    margin-top: 40px;
     display: flex;
-    align-items: center
-    
-    
+    align-content: center;
+    justify-content: center;
 }
 
 .about-me__text {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 60%;
+    padding-right: 40px;
+}
 
+.about-me__text h2 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    padding-bottom: 40px;
 }
 
 .about-me__img {
-    display:flex;
-    width: 40%;
-    justify-content: space-evenly;
-
-}
-
-.about-me__img img {
-    
-    height: 220px;
+    border-radius: 205px;
+    padding: 5px;
+    margin: 25px;
+    width: 363px;
+    height: fit-content;
 }

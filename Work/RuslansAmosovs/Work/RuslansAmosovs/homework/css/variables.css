@@ -1,13 +1,6 @@
 :root {
-    --main: rgb(253, 253, 253);
-    --main-bg-color: #883838;
-    --main-padding: 10px;
-}
-
-div {
-    background-color: var(--main-bg-color);
-    padding: var(--main-padding);
-
-    color: rgb(63, 52, 31);
-    color: var(--main);
+    --main-bg-color: #0e1627;
+    --white: #fff;
+    --text-highlight: #0095ff;
+    --main-light:#1153cf;
 }
