@@ -1,108 +1,115 @@
-<!DOCTYPE html>                                                            <!--1-I put all images in assets folder.
-                                                                            2-Change img src.
-                                                                            3-add container.
-                                                                            4-fix my profile img with flexbox.
-                                                                            5-fix section class skils.
-                                                                            6-add file common in css.
-                                                                            Done and fix first 3 homeworks.
-                                                                            lesson 4.
-                                                                            1-I add linear-gradient in body as a example.
-                                                                            2-I add sprite in header but I didnt work.
-                                                                            I dont understand why.
-                                                                            3-I add variables. As example.
-                                                                            4-I didnt finish with the fonts.
-                                                                            -->
-
+<!DOCTYPE html>                                                            
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork\RuslansAmosovs\03</title>
-    <link rel="stylesheet" href="css\style.css"\>
+|   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HomeWork\RuslansAmosovs\</title>
 
-</head>
-<body>
-    <div class="container"> <!--container-->
+        <link rel="stylesheet" href="css\style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!--header-->
         <header class="header">
             <img class="header__logo" src="assets/logo.png" alt="logo">
-            <div class="header__links">
-                <a href="http:\\" target="_blank" rel="">About</a>
-                <a href="http:\\" target="_blank" rel="">Skills</a>
-                <a href="http:\\" target="_blank" rel="">Projects</a>
-                <a href="http:\\" target="_blank" rel="">Contacts</a>
+            <ul class="header__nav" id="myLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <a class="header__social">
+                <a href=""><img src="assets/Github.logo.png" alt="GitHubIcon"></a>
+                <a href=""><img src="assets/LinkedIn.logo.png" alt="LinkedinIcon"></a>
             </div>
-            <div class="header__social">
-                <img src="assets/Github.logo.png" alt="GitHubIcon">
-                <img src="assets/LinkedIn.logo.png" alt="LinkedinIcon">
-            </div>
-            <!--sprite-->
-            <div class='sprite__github'>
-                <img src="assets/sprite.png">
-            </div>
-        
+            <button class="header__btn" onclick="showHide()">show/show</button>
         </header>
+        <main>
+            <!--main-->
             <section class="main">
-                <h1 class="main__title">Hello world! I'm Ruslans Amosovs a <mark>Truck driver-operator</mark>,based in Norway.</h1>
+                <h1
+                     class="main__txt">Hello world! I'm Ruslans Amosovs a <mark>Truck driver-operator</mark>,based in Norway.</h1>
                 <button class="main__btn">Check my resume</button>
             </section>
 
-            <section class="about-me">
+            <!--about me-->
+            <section id="about" class="about-me">
                 <div class="about-me__text">
                     <h2>About me</h2>
-                        <p>I'm a team leader driver operator with more than 5 years of experience on scandic roads.
+                        <p>I'm a <mark>team leader driver operator</mark> with more than 5 years of experience on <mark>scandic roads.</mark>
                         I'm a very positive and nice guy! I like to work in a team, and I'm always open to new contact with new people.
                         As a team leader, I learn how to work with people, understand people, and help people do their work better and faster with less stress.
                         My strong side is, that I like to challenge myself for something new.
-                        Now I challenge myself with a new skill Front-end Developer.</p>
+                        Now I challenge myself with a new skill <mark>Front-end Developer.</mark></p>
                 </div>
-                    <div class="about-me__img">
-                        <img src="assets/RAProfile-Picture.jpg">
-                    </div>
+                <img class="about-me__img" src="assets/RAProfile-picture.jpg">
             </section>
 
-            <section class="title">
-                <div class="title__text">Skills</div>
+            <!--skills-->
+            <section id="skills" class="skills">
+                <h3>Skills</h3>
+                <ul class="skills__list">
+                    <li class="skills__list-item"><img src="./assets/html.svg">HTML</li>
+                    <li class="skills__list-item"><img src="./assets/css.svg">CSS</li>
+                    <li class="skills__list-item"><img src="./assets/js.svg">JS</li>
+                    <li class="skills__list-item"><img src="./assets/react.svg">React</li>
+                    <li class="skills__list-item"><img src="./assets/git.svg">GIT</li>
+                    <li class="skills__list-item"><img src="./assets/github.svg">GitHub</li>
+                </ul>
             </section>
-                    <section class="skills">
-                        <div class="skills__items">
-                            <img src="assets/html.svg">
-                            html
-                        </div>
-                        <div class="skills__items">
-                            <img src="assets/css.svg">
-                            css
-                        </div>
-                        <div class="skills__items">
-                            <img src="assets/js.svg">
-                            js
-                        </div>
-                        <div class="skills__items">
-                            <img src="assets/git.svg">
-                            git
-                        </div>
-                        <div class="skills__items">
-                            <img src="assets/github.svg">
-                            github
-                        </div>
-                        <div class="skills__items">
-                            <img src="assets/react.svg">
-                            reactJS
-                        </div>
-                    </section>
-                        
-                        
-
             
+            <!--contacts-->
+            <section id="contacts" class="contacts">
+                <h3>Contacts</h3>
+                <div class="contact">
+                    <div class="contact__form">
+                        <form>
+                            <label>Your name</label>
+                            <input type="text" placeholder="Enter name">
 
-            <section class="title">
-                <div class="title__text">Projects</div>
-            </section>
+                            <label>Your email</label>
+                            <input type="text" placeholder="Enter email">
 
-            <section class="title">
-                <div class="title__text">Contacts</div>
-            </section>
+                            <label>Your message</label>
+                            <textarea type="text" placeholder="Enter text"></textarea>
+                        </form>
+                        <button value="Submit">Send message</button>
+                    </div>
+
+                    <div class="contact__list contact__list_email">
+                        <img src="assets/email.svg">
+                        <div class="contact__list-text">
+                            <strong>Email</strong>
+                            <p>myEmail@email.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__list contact__list_whattsapp">
+                        <img src="assets/whatsapp.svg">
+                        <div class="contact__list-text">
+                            <strong>whatsapp</strong>
+                            <p>MyWhatsapp</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__list contact__list_message">
+                        <img src="assets/message.svg">
+                        <div class="contact__list-text">
+                            <strong>Message</strong>
+                            <p>MyMessage</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__list contact__list_github">
+                        <img src="assets/githubicon.svg">
+                        <div class="contact__list-text">
+                            <strong>Github</strong>
+                            <p>myGithub</p>
+                        </div>
+                    </div>
+                </div>
+            </section>           
+        </main>
     </div>
-    
-    
-</body>
+    </body>
 </html>

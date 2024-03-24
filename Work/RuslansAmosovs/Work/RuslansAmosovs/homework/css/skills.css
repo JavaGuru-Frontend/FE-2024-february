@@ -1,24 +1,27 @@
 .skills {
+    padding: 150px 0;
+}
+
+
+.skills__list {
+    margin-top: 50px;
     display: flex;
-    background-color: rgb(168, 168, 213);
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.skills__items {
-    width: 25%;
-    background-color: darkblue;
-    color: white;
-    margin: 10px 5px;
+.skills__list-item {
+    width: 32%;
+    background-color: var(--main-light);
+    border-radius: 8px;
+    margin: 7px;
+    text-align: center;
+    padding: 18px 0;
+    display: flex;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
-.skills__items img {
-    margin-right: 20px;
-}
-
-/*.skills__items html:hover {
-    background-position: -60px 0px;
+.skills__list-item img {
+    padding-right: 10px;
 }
