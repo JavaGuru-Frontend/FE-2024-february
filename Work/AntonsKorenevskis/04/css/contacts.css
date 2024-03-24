@@ -115,3 +115,36 @@
     line-height: 10px;
     align-items: center;
 }
+
+
+@media screen and (max-width: 800px) {
+    .contacts {
+        gap:10px 5px;
+        display:flex;
+        flex-direction: column;
+        /* grid-template-columns: 100%; */
+        grid-template-rows: repeat(5, 1fr); 
+        grid-template-areas:
+        "form email"
+        "form whatsapp"
+        "form messenger"
+        "form github";
+    }
+
+    .contacts__email {
+        grid-area: email;
+        background-color: var(--contacts-btn-color);
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left:30px;
+        align-content: space-around;
+        line-height: 10px;
+        align-items: center;
+    }
+
+
+
+    
+
+ }
