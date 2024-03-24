@@ -1,16 +1,29 @@
+
 body {
-    background-color: rgb(171, 171, 207);
-    /*add linear-gradient*/
-    background-image: linear-gradient(56deg, red, transparent);
+    background-color: var(--main-bg-color);
+    color: var(--white);
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.5px;
 }
 
-* {
-    border: solid 1px red !important;
-    box-sizing: border-box;
-}
 
 .container {
-    width: 1142px;
-    background-color: aquamarine;
+    max-width: 1142px;
+    padding: 0 40px;
     margin: 0 auto;
+}
+
+ mark {
+    color: var(--text-highlight);
+    background-color: transparent;
+}
+ 
+h3 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: center;
 }

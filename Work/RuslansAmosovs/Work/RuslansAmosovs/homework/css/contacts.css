@@ -1,0 +1,74 @@
+.contacts {
+    padding: 150px 0;
+}
+
+
+.contact {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+    
+.contact__form { grid-area: 1 / 1 / 5 / 8; }
+.contact__list_email { grid-area: 1 / 8 / 2 / 13; }
+.contact__list_whattsapp { grid-area: 2 / 8 / 3 / 13; }
+.contact__list_message { grid-area: 3 / 8 / 4 / 13; }
+.contact__list_github { grid-area: 4 / 8 / 5 / 13; }
+
+
+.contact__form,
+.contact__list {
+    border-radius: 8px;
+    background-color: var(--main-light);
+    padding: 30px 100px;
+}
+
+.contact__list {
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.contact__list .contact__list-text {
+    margin-left: 30px;
+    font-weight: 100;
+    font-size: smaller;
+} 
+.contact__list .contact__list-text strong {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.contact__form input,
+.contact__form label {
+    display: block;
+}
+
+.contact__form input,
+.contact__form textarea {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.contact__form textarea {
+    height: 100px;
+}
+
+.contact__form button {
+    background-color: var(--text-highlight);
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    color: var(--white);
+}
