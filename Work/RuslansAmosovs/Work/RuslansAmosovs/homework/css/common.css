@@ -8,9 +8,6 @@ body {
     letter-spacing: 0.5px;
 }
 
-* {
-    box-sizing: border-box;
-}
 
 .container {
     max-width: 1142px;

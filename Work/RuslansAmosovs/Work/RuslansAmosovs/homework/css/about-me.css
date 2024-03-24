@@ -18,8 +18,9 @@
 }
 
 .about-me__img {
-    border: 1px solid #ddd;
     border-radius: 205px;
     padding: 5px;
+    margin: 25px;
     width: 363px;
+    height: fit-content;
 }

@@ -23,3 +23,7 @@
     color: var(--white);
     cursor: pointer;
 }
+
+@media (max-width: 769px) {
+    
+}
