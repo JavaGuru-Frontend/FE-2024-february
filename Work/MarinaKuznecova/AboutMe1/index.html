@@ -2,15 +2,26 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project1</title>
-    <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
     <!-- navbar  -->
     <nav class="navbar">
-        <img src="img/mk1.jpg">
+        <img src="img/logo.png">
 
         <div class="toggle-btn">
             <span></span>
@@ -22,34 +33,34 @@
             <li class="links-item"><a href="#project-section" class="link">project</a></li>
             <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
         </ul>
+
     </nav>
+    <!-- navbar  -->
 
-</head>
-
-<body>
     <!-- home section -->
     <section class="home">
-        <div class="hero-content">
-            <h1 class="hero-heading"><span class="highlight">hi, </span>i am Marina</h1>
+        <div class="home__content">
+            <h1 class="home__heading"><span class="highlight">hi, </span>i am Marina</h1>
             <p class="profession">web developer</p>
             <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur odit in laudantium
                 suscipit blanditiis asperiores.</p>
             <a href="#contact-section" class="btn">contact</a>
         </div>
-        <img src="img/home.png" class="image" alt="">
+        <img src="img/about.png" class="image" alt="">
     </section>
-    
+    <!-- home section -->
+
     <!-- about section -->
     <section class="about" id="about-section">
-        <h2 class="heading">about <span class="highlight">me</span></h2>
-        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur. </p>
+        <h2 class="about__heading">about <span class="highlight">me</span></h2>
+        <p class="sub__heading">Lorem ipsum dolor sit amet consectetur. </p>
         <div class="seperator"></div>
-        <div class="about-me-container">
+        <div class="about-me__container">
             <div class="left-col">
-                <img src="img/mainimg.jpg" class="about-image" alt="">
+                <img src="img/home11.png" class="about__image" alt="">
             </div>
             <div class="right-col">
-                <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus totam quia
+                <p class="about__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus totam quia
                     numquam tempora nostrum earum similique enim laudantium iusto. Quaerat illo numquam minus pariatur,
                     cum qui ipsum sapiente, atque optio voluptatibus necessitatibus, quis dolores veniam delectus
                     inventore beatae? Accusamus, illum! Non nam dolores assumenda quibusdam repellat beatae quae eum
@@ -58,15 +69,87 @@
                     maiores, rerum, consequatur aliquid doloribus? Quas accusantium quidem eos ex, aperiam recusandae.
                     Veritatis?</p>
                 <a href="#" class="btn">download cv</a>
+            </div>
+    </section>
+    <!-- about section -->
+
+    <!-- skill section -->
+    <div class="skill-container">
+        <div class="skill-card" style="--bg: #f06529">
+            <p class="skill">HTML</p>
+        </div>
+        <div class="skill-card" style="--bg: #379ad6">
+            <p class="skill">CSS</p>
+        </div>
+        <div class="skill-card" style="--bg: #cc6699">
+            <p class="skill">SCSS</p>
+        </div>
+        <div class="skill-card" style="--bg: #f7df1e">
+            <p class="skill">JavaScript</p>
+        </div>
+        <div class="skill-card large" style="--bg: #5ed9fb">
+            <p class="skill">ReactJS</p>
+        </div>
+        <div class="skill-card large" style="--bg: #83cd29">
+            <p class="skill">NodeJS</p>
+        </div>
+        <div class="skill-card" style="--bg: #326690">
+            <p class="skill">Postgres SQL</p>
+        </div>
+        <div class="skill-card" style="--bg: #ffa000">
+            <p class="skill">Firebase</p>
+        </div>
+        <div class="skill-card large" style="--bg: #5ed9fb">
+            <p class="skill">Much More</p>
+        </div>
+    </div>
+    </section>
+    <!-- skill section -->
+
+    <!-- project section -->
+    <section class="project" id="project-section">
+        <h2 class="Project__heading">Project<span class="highlight">s</span></h2>
+        <p class="sub__heading">Lorem ipsum dolor sit amet consectetur. </p>
+        <div class="seperator"></div>
+        <div class="filters">
+            <button class="filter-btn active" id="all">all</button>
+            <button class="filter-btn" id="javascript">javaScript</button>
+            <button class="filter-btn" id="ui">ui/ux</button>
+            <button class="filter-btn" id="backend">backend</button>
+            <button class="filter-btn" id="fullstack">fullStack</button>
         </div>
     </section>
+    <div class="project-container">
+    </div>
+    <!-- project section -->
+
+    <!-- contact form -->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Contact<span class="highlight"> me</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur. </p>
+        <div class="seperator"></div>
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="first name">
+                <input type="text" class="last-name" required placeholder="last name">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="message" required></textarea>
+            <button class="btn contact-btn">contact</button>
+        </div>
+    </section>
+    <!-- contact form -->
 
 
-   
+    <!-- footer section-->
+
+    <!-- footer section-->
 
 
 
-       
+    <script src="./project.js"></script>
+    <script src="./app.js"></script>
+    <script src="./server.js"></script>
 </body>
 
 </html>
