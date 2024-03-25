@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.header-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.header-links a {
+
+    margin: 0px 50px;
+
+}
+
+.header__social img {
+
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,29 @@
+.main {
+    padding: 15vh 0;
+}
+
+.main__txt {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.main__btn {
+    border-radius: 8px;
+    margin-top: 40px;
+    border: none;
+    padding: 16px 32px;
+}
+
+.main__btn:hover {
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--white);
+    color: var(--white);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 769px) {
+    
+}

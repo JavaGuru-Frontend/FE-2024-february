@@ -1,0 +1,27 @@
+.skills {
+    padding: 150px 0;
+}
+
+
+.skills__list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills__list-item {
+    width: 32%;
+    background-color: var(--main-light);
+    border-radius: 8px;
+    margin: 7px;
+    text-align: center;
+    padding: 18px 0;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.skills__list-item img {
+    padding-right: 10px;
+}
