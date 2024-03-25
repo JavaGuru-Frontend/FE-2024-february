@@ -1,0 +1,42 @@
+@font-face {
+    font-family: fonts;
+    src: url(../assets/fontra.ttf);
+}
+
+body {
+    font-family: fonts;
+}
+
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--white);
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+
+.container {
+    max-width: 1142px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+ mark {
+    color: var(--text-highlight);
+    background-color: transparent;
+}
+ 
+h3 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+* {
+    border: 1px solid rgb(238, 255, 0) !important;
+}

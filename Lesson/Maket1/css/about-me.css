@@ -9,9 +9,9 @@
 }
 
 .about-me__img {
-    width: 40%;
+    width: 100%;
 }
 
 .about-me__img img {
-    height: 100px;
+    height: 200px;
 }

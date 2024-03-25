@@ -1,0 +1,19 @@
+.about-me {
+    margin-top: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-me__text {
+    padding-right: 40px;
+}
+
+.about-me__text h2 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    padding-bottom: 40px;
+}
+

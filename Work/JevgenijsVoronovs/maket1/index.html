@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anastasia Babika | Front-end developer</title>
+        <meta name="description" content="Anastasia Babika | Front-end developer">
+        <meta name="viewport" content="with=device-with,initial-scale=1.0">
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- header -->
+            <header class="header">
+                <img class="header__logo" src="./assets/logo.png">
+                <ul class="header__nav" id="myLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+                <div class="header__social">
+                    <a href=""><img src="./assets/GithubIcon.png"></a>
+                    <a href=""><img src="./assets/LinkedInIcon.png"></a>
+                </div>
+                <button class="header__btn" onclick="showHide()">show/show</button>
+            </header>
+            <main>
+                <!-- main -->
+                <section class="main">
+                    <h1 
+                        class="main__txt"
+                    >Hello world! I’m Anastasia Babika, <br> a <mark>Front-end developer</mark>, based in Riga.</h1>
+                    <button class="main__btn">Check to resume</button>
+                </section>
+
+                <!-- about me -->
+                <section id="about" class="about-me">
+                    <div class="about-me__text">
+                        <h2>About Me</h2>
+                        <p>I took part in the development of modern interfaces, creation of <mark>UI solutions</mark> that meet the needs of users while studying new methodologies and empathizing with users.</p>
+                        <br><br>
+                        <p>I had an opportunity to work on the design of different projects including <mark>websites</mark> and <mark>mobile applications</mark> for marketing as well as participated in other challenges.</p>
+                    </div>
+                    <img class="about-me__img"src="./assets/mainImg.png">
+                </section>
+
+                <!-- skills -->
+                <section id="skills" class="skills">
+                    <h3>Skills</h3>
+                    <ul class="skills__list">
+                        <li class="skills__list-item"><img src="./assets/html.svg">HTML</li>
+                        <li class="skills__list-item"><img src="./assets/css.svg">CSS</li>
+                        <li class="skills__list-item"><img src="./assets/js.svg">JS</li>
+                        <li class="skills__list-item"><img src="./assets/react.svg">React</li>
+                        <li class="skills__list-item"><img src="./assets/git.svg">GIT</li>
+                        <li class="skills__list-item"><img src="./assets/github.svg">GitHub</li>
+                    </ul>
+                </section>
+
+                <!-- projects -->
+                <section id="projects" class="projects-wrapper">
+                    <h3>Projects</h3>
+                    <div class="projects">
+                        <div class="project">
+                            <picture class="project__img">
+                                <source media="(max-width:769px)" srcset="./assets/full-img.png">
+                                <img src="./assets/project-1.png">
+                            </picture>
+                            <div class="project__description">
+                                <h4>Expenses app </h4>
+                                <p>Money Manager makes managing personal finances as easy as pie! Now easily record your personal and business financial transactions, generate spending reports...</p>
+                                <ul class="projects__skills">
+                                    <li class="projects__skills-item"><img src="./assets/html.svg">HTML</li>
+                                    <li class="projects__skills-item"><img src="./assets/css.svg">CSS</li>
+                                    <li class="projects__skills-item"><img src="./assets/js.svg">JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="project">
+                            <picture class="project__img">
+                                <source media="(max-width:769px)" srcset="./assets/full-img-2.png">
+                                <img src="./assets/project-2.png">
+                            </picture>
+                            <div class="project__description">
+                                <h4>Expenses app </h4>
+                                <p>Money Manager makes managing personal finances as easy as pie! Now easily record your personal and business financial transactions, generate spending reports...</p>
+                                <ul class="projects__skills">
+                                    <li class="projects__skills-item"><img src="./assets/html.svg">HTML</li>
+                                    <li class="projects__skills-item"><img src="./assets/css.svg">CSS</li>
+                                    <li class="projects__skills-item"><img src="./assets/js.svg">JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- contacts -->
+                <section id="contacts" class="contacts">
+                    <h3>Contacts</h3>
+                    <div class="contact">
+                        <div class="contact__form">
+                            <form>
+                                <label>Your name</label>
+                                <input type="text" placeholder="Enter name">
+
+                                <label>Your email</label>
+                                <input type="text" placeholder="Enter email">
+
+                                <label>Your message</label>
+                                <textarea type="text" placeholder="Enter text"></textarea>
+                            </form>
+                            <button value="Submit">Send message</button>
+                        </div>
+
+                        <div class="contact__list contact__list_email">
+                            <img src="assets/email.svg">
+                            <div class="contact__list-text">
+                                <strong>Email</strong>
+                                <p>myEmail@email.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__list contact__list_whattsapp">
+                            <img src="assets/whatsapp.svg">
+                            <div class="contact__list-text">
+                                <strong>whatsapp</strong>
+                                <p>MyWhatsapp</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__list contact__list_message">
+                            <img src="assets/message.svg">
+                            <div class="contact__list-text">
+                                <strong>Message</strong>
+                                <p>MyMessage</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__list contact__list_github">
+                            <img src="assets/githubicon.svg">
+                            <div class="contact__list-text">
+                                <strong>Github</strong>
+                                <p>myGithub</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="./js/scroll.js"></script>
+        <script src="./js/showHide.js"></script>
+    </body>
+</html>

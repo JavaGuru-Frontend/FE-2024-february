@@ -4,7 +4,7 @@
 FE-2024-february/Lesson/02-HTML/tags
 
 Используя [Макет](https://www.figma.com/file/ZQow7y7MzPV5H488WiuteJ/Portfolio?type=design&mode=design&t=9ZFy6trMqi1HXqrR-1) как образец  
-Сверстать сраничку на основе своих данных 
+Сверстать страничку на основе своих данных 
 
 ## На что обратить внимание  
 1) Правильно вкладывать теги одни в другие  
