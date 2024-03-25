@@ -85,7 +85,7 @@ select {
 }
 
 .btn1:hover{
-    transform: scale(1.02);
-        transition-duration: 0.8s;
+    transform: scale(1.1);
+        transition-duration: 1.1s;
         background-color: rgb(130, 233, 14);
 }
