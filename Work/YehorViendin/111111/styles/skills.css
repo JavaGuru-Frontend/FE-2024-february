@@ -17,3 +17,8 @@ font-size: 40px;
 .skills__items img{
     margin-right: 15px;
 }
+
+.skills__items:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
