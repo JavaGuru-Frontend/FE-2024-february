@@ -10,3 +10,20 @@
 body{
     background-color: rgb(13, 17, 17);
 }
+
+.page{
+    
+    max-width: 1142px;
+    margin: 0 auto;
+ }
+
+@media screen and (max-width: 800px) {
+
+    .page{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+       
+
+    }
