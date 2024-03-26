@@ -1,0 +1,24 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(body.css);
+@import url(main.css);
+@import url(about-me.css);
+@import url(title.css);
+@import url(skills.css);
+@import url(footer.css);
+@import url(projects.css);
+@import url(contact.css);
+
+*{
+    border: 2px solid red !important;
+}
+
+
+.test1 {
+    text-align: center;
+}
+
+.container {
+    width: 1142px;
+    margin: 0 auto;
+}
