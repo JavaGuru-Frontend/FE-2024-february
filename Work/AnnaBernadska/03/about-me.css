@@ -13,10 +13,16 @@
 }
 .about-me__text2{
     font-size: 30px;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
 }
 
 .about-me__img {
     width: 40%;
+    background-image: url(IMG/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 } 
 
 .about-me__img img {
