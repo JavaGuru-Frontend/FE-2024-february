@@ -15,6 +15,7 @@
     margin-top: 40px;
     border: none;
     padding: 16px 32px;
+    transition: 2s;
 }
 
 .main__btn:hover {
@@ -22,6 +23,12 @@
     border: 1px solid var(--white);
     color: var(--white);
     cursor: pointer;
+}
+
+.main__btn:hover {
+    background-color: red;
+    transition: 2s;
+    transform: rotate(90deg);
 }
 
 @media only screen and (max-width: 769px) {
