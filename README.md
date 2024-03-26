@@ -21,19 +21,16 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 ## Выполнение работ
 | Student               | Github           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 
 | :-------------------- | :--------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
-| AleksejsLalins        | AleksejsLalins   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
-| AlijaAlijeva          | AlijAalijeva     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
-| AnnaBernadska         | Anna Bernadska   | ✓ | ✓ | / |   |   |   |   |   |   |    | 
-| AntonsKorenevskis     | neontone         | ✓ | ✓ | 🔥 |   |   |   |   |   |   |   | 
+| AleksejsLalins        | AleksejsLalins   | ✓ | ✓ | / | / | / |   |   |   |   |    | 
+| AlijaAlijeva          | AlijAalijeva     | ✓ | ✓ | / | / | / |   |   |   |   |    | 
+| AnnaBernadska         | Anna Bernadska   | ✓ | ✓ | / | / | ? |   |   |   |   |    | 
+| AntonsKorenevskis     | neontone         | ✓ | ✓ | 🔥 | ✓ | ✓ |   |   |   |   |   | 
 | JevgenijaKarpova      | YevgeniyaKrp     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | JevgenijsVoronovs     |                  | ✓ | ✓ |   |   |   |   |   |   |   |    | 
-| MarinaKuznecova       | Marina Kuznecova | ✓ |   | / |   |   |   |   |   |   |    | 
-| RuslansAmosovs        | Ruslans          |   | ✓ | / |   |   |   |   |   |   |    | 
+| MarinaKuznecova       | Marina Kuznecova | ✓ |   | / | ✓ | ✓ |   |   |   |   |    | 
+|                       | pjotr grezmanis  | ? |   |   |   | ? |   |   |   |   |    | 
+| RuslansAmosovs        | Ruslans          |   | ✓ | / | ✓ | ✓ |   |   |   |   |    | 
 | SvetlanaDaugele       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
-| SvetlanaPokatilova    | aMADsss          | ✓ |   | ? |   |   |   |   |   |   |    | 
-| YehorViendin          | yehor10          | ✓ | ✓ | / |   |   |   |   |   |   |    | 
-|                       | Argyreianervosa  | ? |   |   |   |   |   |   |   |   |    | 
-|                       | Edward           | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | LadaFjodorova    | ✓ |   |   |   |   |   |   |   |   |    | 
-|                       | pjotr grezmanis  | ? |   |   |   |   |   |   |   |   |    | 
-|                       | YUL373           |   |   |   |   |   |   |   |   |   |    | 
+| SvetlanaPokatilova    | aMADsss          | ✓ |   | ? |   | ? |   |   |   |   |    | 
+| YehorViendin          | yehor10          | ✓ | ✓ | / |   | ✓ |   |   |   |   |    | 
+
