@@ -1,0 +1,25 @@
+.about-me{
+    display: flex;
+    align-items: center
+}
+
+.about-me__text{
+   width: 60%;
+}
+
+.about-me__title{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.about-me__text2{
+    font-size: 30px;
+}
+
+.about-me__img {
+    width: 40%;
+} 
+
+.about-me__img img {
+    width: 300px;
+    padding-left: 75px;
+} 

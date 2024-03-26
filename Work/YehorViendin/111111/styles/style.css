@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 @import url("reset.css");
 @import url("header.css");
 @import url("main.css");
@@ -10,3 +11,25 @@
 body{
     background-color: rgb(13, 17, 17);
 }
+
+h1{
+    font-family: "Workbench", sans-serif;
+}
+
+.page{
+    
+    max-width: 1142px;
+    margin: 0 auto;
+ }
+
+@media screen and (max-width: 800px) {
+
+    .page{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+       
+
+    }
