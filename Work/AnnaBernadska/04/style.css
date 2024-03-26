@@ -8,6 +8,11 @@
 @import url(footer.css);
 @import url(projects.css);
 @import url(contact.css);
+@import url(font.css);
+@font-face {
+    font-family:EduSWA ;
+    src: url(font/EduNSWACTFoundation-VariableFont_wght.ttf);
+}
 
 *{
     border: 2px solid red !important;
