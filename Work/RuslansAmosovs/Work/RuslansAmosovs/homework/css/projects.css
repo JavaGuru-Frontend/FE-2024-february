@@ -54,3 +54,25 @@
     padding-right: 30px;
     font-size: 24px;
 }
+
+.project__img_animate {
+    transition: 3s;
+    animation-name: animationTest;
+    animation-duration: 4s;
+}
+
+@keyframes aplane-flight {
+    0% {
+        transform: rotateZ(0deg) transform, translateY(0px)
+    }
+    25% {
+        transform: rotateZ(90deg) transform, translateY(150px)
+    }
+    75% {
+        transform: rotateZ(180deg) transform, translateY(300px)
+    }
+    100% {
+        transform: rotateZ(270deg) transform, translateY(0px)
+    }
+
+}

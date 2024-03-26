@@ -25,3 +25,8 @@
 .skills__list-item img {
     padding-right: 10px;
 }
+
+.skills__list-item:hover {
+    background-color: brown;
+    cursor: copy;
+}
