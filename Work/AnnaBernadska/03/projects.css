@@ -14,13 +14,20 @@
 }
 
 .projects__text{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
     width: 75%; 
     padding: 20px 30px;
-    font-size: 26px;
+    
 }
 
 .title__subtext{
-    font-size: 30px;
+    font-weight: 900;
 }
 
 .projects__img img {

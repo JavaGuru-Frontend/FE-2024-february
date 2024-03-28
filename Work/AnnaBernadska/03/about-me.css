@@ -8,13 +8,17 @@
 }
 
 .about-me__title{
-    font-size: 50px;
-    padding-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 300%;
+    padding-bottom: 44px;
 }
 .about-me__text2{
-    font-size: 30px;
-    font-family: "Pacifico", cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
     font-style: normal;
+    font-size: 185%;
 }
 
 .about-me__img {
