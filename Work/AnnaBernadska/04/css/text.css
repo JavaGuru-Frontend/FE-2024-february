@@ -1,0 +1,23 @@
+.text__block {
+    position: relative;
+    border: 9px solid #A387C4;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: aliceblue;
+    text-align: center;
+    flex-direction: column
+} 
+.text__small{
+    font-size: 20px;
+    font-weight: 700;
+}
+.text__big{
+    font-size: 50px; 
+    font-weight: 700;
+}
