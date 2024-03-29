@@ -1,6 +1,6 @@
 @font-face {
     font-family: fonts;
-    src: url(../assets/fontra.ttf);
+    src: url(../assets/font.ttf);
 }
 
 body {
@@ -35,8 +35,4 @@ h3 {
     line-height: 64px;
     letter-spacing: 0.5px;
     text-align: center;
-}
-
-* {
-    border: 1px solid rgb(238, 255, 0) !important;
 }

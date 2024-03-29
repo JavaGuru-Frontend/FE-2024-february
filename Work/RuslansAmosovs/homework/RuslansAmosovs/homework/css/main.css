@@ -22,7 +22,6 @@
     background-color: var(--main-bg-color);
     border: 1px solid var(--white);
     color: var(--white);
-    cursor: pointer;
 }
 
 .main__btn:hover {
@@ -31,6 +30,11 @@
     transform: rotate(90deg);
 }
 
-@media only screen and (max-width: 769px) {
+@media screen and (max-width: 600px) {
     
+    .main__txt {
+        font-size: 20px;
+        display: block;
+        }
+   
 }
