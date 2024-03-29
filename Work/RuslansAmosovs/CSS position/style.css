@@ -1,0 +1,29 @@
+body {
+    background-color: #c7bdbd;
+}
+
+.container {
+    border: 1px solid black ;
+    max-width: 1100px;
+    padding: 0 40px;
+    margin: 18px;
+}
+
+p {
+    border: 3px solid rgb(167, 7, 7);
+    padding: 4px;
+}
+
+p.main {
+    position: absolute;
+    top: 79px;
+    left: 150px;
+    background-color: greenyellow;
+}
+
+p.main__1 {
+    position: relative;
+    top: 64px;
+    left: 118px;
+    background-color: #609b06;
+}
