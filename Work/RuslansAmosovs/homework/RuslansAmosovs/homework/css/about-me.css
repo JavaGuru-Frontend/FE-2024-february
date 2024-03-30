@@ -25,7 +25,7 @@
     height: fit-content;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .about-me,
     .about-me__text {
         font-size: 20px;

@@ -18,6 +18,7 @@
 
 .project__description {
     margin-left: 40px;
+    width: auto;
 }
 
 .project__description h4 {
@@ -55,24 +56,26 @@
     font-size: 24px;
 }
 
-.project__img_animate {
-    transition: 3s;
-    animation-name: animationTest;
-    animation-duration: 4s;
+
+@media screen and (max-width: 800px) {
+    .projects_text {
+        font-size: 30px;
+        flex-direction : column;
+        align-items: center;
+    }
+    .projects-wrapper,
+    .project,
+    .projects,
+    .project__description,
+    .project__img,
+    .projects__skills,
+    .projects__skills-item {
+        width: 100%;
+        font-size: 20px;
+        flex-direction : column;
+        align-items: center;
+
+    }
+
 }
 
-@keyframes aplane-flight {
-    0% {
-        transform: rotateZ(0deg) transform, translateY(0px)
-    }
-    25% {
-        transform: rotateZ(90deg) transform, translateY(150px)
-    }
-    75% {
-        transform: rotateZ(180deg) transform, translateY(300px)
-    }
-    100% {
-        transform: rotateZ(270deg) transform, translateY(0px)
-    }
-
-}
