@@ -1,0 +1,53 @@
+.test_1 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+  
+    width: 100px;
+    height: 100px;
+    background-color: #fd0000;
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  @keyframes move {
+    0%   { left: 0px; }
+    50%  { left: 200px; }
+    100% { left: 0px; }
+  }
+
+  .test_2 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+  
+    width: 100px;
+    height: 100px;
+    background-color: #940404;
+    border-radius: 0px;
+    position: relative;
+  }
+  
+  @keyframes move {
+    0%   { left: 0px; }
+    50%  { left: 200px; }
+    100% { left: 0px; }
+  }
+
+  .test_3 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+  
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  @keyframes move {
+    0%   { left: 0px; }
+    50%  { left: 200px; }
+    100% { left: 0px; }
+  }
