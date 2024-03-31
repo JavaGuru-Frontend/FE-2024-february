@@ -4,81 +4,88 @@
 <head>
     <meta charset="UFT-8">
     <meta http-equiv="X-UA-Compatible"content="IE=edge">
-    <meta name="viewport"content="width=devaice-width,initial-scale">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectors</title>
-    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div class="my-contacts">
+        <h1>test</h1>
+        <h2>test</h2>
+        <h3>
+            test3
+            <span>test5</span>
+        </h3>
+    </div>
+
+
     <h1 class="test test2">Text</h1>
     <header class="test1">
         <div class="boxModel1">
             <span>Svetlana</span>
         </div>
-        <div> class="boxModel2">
+        <div class="boxModel2">
             <span>Svetlana</span>
         </div>
      </header>
      <header class="header">
+        <!-- <img class="header__logo" src="assrts/logo.png" alt=""> -->
         <div class="header__links">
-        <img class="header__logo"src="assrts/logo.png"alt="">
-        <div class="header__links"></div>
+            <a href="http://"target="_blank"rel="noopener noreferrer">About></a>
+            <a href="http://"target="_blank"rel="noopener noreferrer">Skills</a>
+            <a href="http://"target="_blank"rel="noopener noreferrer">Projects</a>
+            <a href="http://"target="_blank"rel="noopener noreferrer">Contacts</a>
+        </div>
+        <div class="header__social">
+            <img src="img/github.svg" height="30">
+            <img src="../../JevgenijsVoronovs/maket1/assets/LinkedInIcon.png" height="30">
+        </div>
+    </header>
 
-             <a href="http://"target="_blank"rel="noopener noreferrer">About></a>
-             <a href="http://"target="_blank"rel="noopener noreferrer">Skills</a>
-             <a href="http://"target="_blank"rel="noopener noreferrer">Projects</a>
-             <a href="http://"target="_blank"rel="noopener noreferrer">Contacts</a>
-     </div>
-     <div class="header__social">
-        <img src="assets/github.png" height="30">
-        <img src="assets/linkedin.png" height="30">
-    </div>
-
-     </header>
     <section class="main">
         <h1 class="main__title">
-            <span>Hello world!I'm Svetlana.<br>a <span style="color: #18d8ce;"></span>
-            <button  class="main__btn">Check my resume</button> 
+            <span>Hello world!I'm Svetlana.
+                <br>a 
+                <span style="color: #18d8ce;"></span>
+            </span>
         </h1>
+        <button  class="main__btn">Check my resume</button> 
     </section>
-    <section class="about-me"></section>
 
-         <div class="about-me__text">
-             <h2>About Me</h2>
-             <p>I'm Svetlna</p>
-                I'm learning the basics Fronted.
-          </div>
-          <div class="about-me__img"
-          class src="sveta/DSC_1742.JPG"> 
+    <section class="about-me">
+        <div class="about-me__text">
+            <h2>About Me</h2>
+            <p>I'm Svetlna</p>
+            I'm learning the basics Fronted.
         </div>
-         
-            <div class="project__img" 
-            width="500px" height="800px">
-               >
-       
-           <img src="assets/mainimg.png"alt="">
-      </div>
+        <!-- <img class="about-me__img" src="img/DSC_1742.JPG" width="500px" height="800px">  -->
+
+        <div class="about-me__img">
+            <img src="img/DSC_1742.JPG" width="500px" height="800px">
+        </div>
+        
+        <div class="project__img">
+           <!-- <img src="img/mainimg.png"alt=""> -->
+        </div>
      </section>
-     <section class="title">
-         <div class="title__text">Skills</div></section>
+
+    <section class="title">
+        <div class="title__text">
+            Skills
+        </div>
+    </section>
     
-         <section class="skills">
-     
-          <img class="assets/html.svg">
-             <img src="assets/html.svg">
-              html
-         </div>
-         <div class="skills__items">
-         <img class="assets/css.svg">
-             <img src="assets/css.svg">
-              css
+    <!-- <section class="skills">
+        <div class="skills__items">
+            <img src="img/css.svg">css
         </div>
 
-         <div class="skills__items">
+        <div class="skills__items">
          <div class="assets__css.js">
              <img src="assets/js.svg">
               js
-         </div>
+        </div>
          <div class="skills__items">
             <img class="assets/git.svg">
             <img src="assets/git.svg">
@@ -96,9 +103,11 @@
         </div>
         
 
-     </section>
+    </section> -->
 
-     <section class="skills"></section>
+     <section class="skills">
+
+     </section>
      <section class="title">
          <div class="title__text">
             Projects
@@ -111,22 +120,9 @@
      </section>
      <section class="title">
         <div class="title__text">
-            email
+            email: jevgenis@inte.
         </div>
     
      </section>
-
-     
-
-     
-
-
-
-
-
-
 </body>
-
-
-
 </html>

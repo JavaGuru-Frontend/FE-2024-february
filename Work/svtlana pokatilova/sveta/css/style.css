@@ -1,3 +1,28 @@
-@import url(abaut-me.css);
-@import url(contacts.css);
+* {
+    border: 1px solid red !important;
+}
+.my-contacts {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: aqua
+}
+
+span {
+    background-color: yellow;
+}
+
+
+@import url(reset.css);
+@import url(common.css);
 @import url(header.css);
+@import url(main.css);
+@import url(abaut-me.css);
+@import url(skills.css);
+@import url(title.css);
+@import url(contacts.css);
+
