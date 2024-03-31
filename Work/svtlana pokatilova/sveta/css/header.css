@@ -1,4 +1,14 @@
-.header{ display: flax;}
+.header{ display: flex;
+         justify-content: space-around;
+         align-items: center;
+         margin-top: 50px;
+        background-color: blue;
+
+}
+
+
+
+
 .header__links a{
     margin: 0px 20px;
 }

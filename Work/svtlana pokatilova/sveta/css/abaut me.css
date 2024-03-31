@@ -6,15 +6,15 @@
 }
 
 .about-me__text {
-        width:  70%;
+        width:  400px;
 }
 
 .about-me__img {
-    width: 20px;
+    width: 60%;
 
 }
 
 .about-me__img img {
-   height: 10px;
+   height: 200px;
 }
 

@@ -1,0 +1,14 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: beige;
+}
+.skills__items{
+    width: 31%;
+    background-color: blueviolet;
+    color: azure;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+}
