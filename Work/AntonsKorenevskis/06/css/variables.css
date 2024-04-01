@@ -1,0 +1,34 @@
+:root {
+    --main-bg-color: #ffffff;
+    --project-main-color: #0085FF; 
+    --project-second-color: #034D82; 
+    --main-black: #0d0d0d;
+    --footer-text: #D3D3D3;
+    --contacts-color: #005490;
+
+
+
+    --title-main-color:#333535;
+    --subtitle-main-color: #6C6C6C;
+
+    --title-second-color:#034D82;
+    --subtitle-second-color:#8EA9C1;
+
+
+    --button-main-color: #0085FF; 
+    --button-text-color: #ffffff; 
+
+
+    --main-text-color: #0085FF; 
+
+    --selected-text-color: #1572B6;
+    --skill-block-color: #0F1726;
+    --project-block-color: #0F1726;
+    --project-text-color: #C9C9C9;
+    --main-btn-color: #5b5b5b;
+    --second-btn-color: #ea00ff;
+    --contacts-btn-color: #0F1726;
+    --placeholder-color: #CEC7C7;
+    --contacts-form-color: #358ECF;
+}
+
