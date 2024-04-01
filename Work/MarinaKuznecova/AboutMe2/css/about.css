@@ -1,6 +1,6 @@
 /* about-section */
 
-.about_section{
+.about__section{
     width: 100%;
     min-height: 100vh;
     padding: 150px 100px 0;
@@ -17,7 +17,7 @@
     grid-gap: 40px;
 }
 
-.about-img-container{
+.about__img-container{
     position: relative;
 }
 

@@ -1,7 +1,7 @@
 .home__section.active,
 .project__section.active,
 .about__section.active,
-.contact-section.active{
+.contact__section.active{
     position: relative;
     opacity: 1;
     z-index: 8;

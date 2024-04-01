@@ -4,13 +4,13 @@
     height: auto;
     padding: 50px 10vw;
 }
-.about__heading{
+.heading{
     text-align: center;
     font-weight: 500;
     font-size: 3.5rem;
     text-transform: capitalize;
 }
-.sub__heading{
+.sub-heading{
     text-align: center;
     font-size: 1rem;
     margin: 10px;
@@ -21,7 +21,7 @@
     margin: 20px auto;
     position: relative;
 }
-.about-me__container{
+.about-me-container{
     margin: 150px 0 100px;
     width: 100%;
     display: grid;
@@ -49,40 +49,13 @@
     transform-origin: right;
     transform: rotate(-30deg);
 }
-.about__image{
+.about-image{
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
-.about__para{
+.about-para{
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 35px;
     margin-bottom: 40px;
-}
-
-
-.about__img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.download-cv__btn{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: .5s;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.download-cv-btn:hover{
-    background: #000;
 }

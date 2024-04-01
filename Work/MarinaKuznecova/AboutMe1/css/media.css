@@ -65,12 +65,12 @@
         width: 250px;
         margin: 40px;
     }
-    .hero-content{
+    .home__content{
         width: 70%;
         min-width: 350px;
         text-align: center;
     }
-    .hero-heading{
+    .home__heading{
         font-size: 4.5rem;
     }
     /* about-section */
