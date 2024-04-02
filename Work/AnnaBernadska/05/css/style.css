@@ -14,9 +14,9 @@
     font-family:EduSWA ;
     src: url(font/EduNSWACTFoundation-VariableFont_wght.ttf);
 }
-*{
+/* *{
     border: 2px solid red !important;
-}
+} */
 .container {
     max-width: 1142px;
     margin: 0 auto;
