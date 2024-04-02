@@ -1,0 +1,37 @@
+.projects{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(6, 43, 11);
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.title__subtext{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.projects__text{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
+    width: 75%; 
+    padding: 20px 30px;
+    
+}
+
+.title__subtext{
+    font-weight: 900;
+}
+
+.projects__img img {
+    width: 125px;   
+    padding: 18px;
+}
+   

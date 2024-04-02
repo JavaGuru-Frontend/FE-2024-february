@@ -1,0 +1,11 @@
+.title {
+display: flex;
+justify-content: center
+
+}
+.title__text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 300%;
+}
