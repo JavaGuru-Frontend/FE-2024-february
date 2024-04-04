@@ -4,8 +4,8 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 ## Лекции
 [01](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Lesson/01-INTRO/1-%D0%92%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F.pdf)  
 [HTML](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Lesson/02-HTML/HTML-1.pdf)  
-[CSS]()  
-[JS]() 
+[CSS](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Lesson/03-CSS/3-4-CSS.pdf)  
+[JS](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Lesson/06-JS/JS-basic.pdf) 
 
 ## Домашние работы 
 [01](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/01/01/homework.md)  
@@ -14,6 +14,7 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 [04](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/04/homework.md)  
 [05](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/05/homework.md)  
 [06](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/06/homework.md)  
+[07](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/07/homework.md)  
 
 
 ## Макеты
