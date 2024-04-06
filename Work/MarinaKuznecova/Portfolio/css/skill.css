@@ -1,8 +1,16 @@
 /* skills */
-
 .skill__section{
     position: relative;
     margin: 100px 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
 }
 
 .heading{
@@ -13,7 +21,6 @@
     font-weight: 300;
     margin-bottom: 100px;
 }
-
 .skills__container{
     width: 95%;
     margin: auto;
@@ -22,17 +29,14 @@
     grid-gap: 100px;
     color: #fff;
 }
-
 .skill__card{
     position: relative;
 }
-
 .skil__img{
     display: block;
     margin: auto;
     height: 200px;
 }
-
 .skill__name{
     font-size: 30px;
     font-weight: 300;
@@ -40,14 +44,12 @@
     text-transform: capitalize;
     margin: 30px 0 20px;
 }
-
 .skill__info{
     text-align: center;
     opacity: 0.5;
     font-size: 18px;
     line-height: 30px;
 }
-
 .skill__level{
     position: absolute;
     top: 80px;
@@ -61,31 +63,26 @@
     border-radius: 50%;
     border: 10px solid;
 }
-
 .skill__card:nth-child(1) .skill__level{
     background: #ff4f4f28;
     border-color: #ff4f4f;
     color: #ff4f4f;
 }
-
 .skill__card:nth-child(2) .skill__level{
     background: #4fa0ff28;
     border-color: #4fa0ff;
     color: #4fa0ff;
 }
-
 .skill__card:nth-child(3) .skill__level{
     background: #ffed4f28;
     border-color: #ffed4f;
     color: #ffed4f;
 }
-
 .skill__card:nth-child(4) .skill__level{
     background: #52ff4f28;
     border-color: #52ff4f;
     color: #52ff4f;
 }
-
 .skill__card:nth-child(5) .skill__level{
     background: #4fdfff28;
     border-color: #4fdfff;
