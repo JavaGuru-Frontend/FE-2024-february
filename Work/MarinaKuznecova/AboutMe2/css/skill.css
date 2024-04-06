@@ -3,6 +3,15 @@
 .skill__section{
     position: relative;
     margin: 100px 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
 }
 
 .heading{

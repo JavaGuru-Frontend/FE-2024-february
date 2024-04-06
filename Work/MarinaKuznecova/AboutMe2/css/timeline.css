@@ -4,6 +4,12 @@
     display: block;
     width: 80%;
     margin: 150px auto;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    padding: 100px 150px;
+    min-height: 100vh;
 }
 
 .timeline .heading{
