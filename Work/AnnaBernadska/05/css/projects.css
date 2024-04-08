@@ -33,5 +33,6 @@
 .projects__img img {
     width: 125px;   
     padding: 18px;
+    border-radius: 33px;
 }
    
