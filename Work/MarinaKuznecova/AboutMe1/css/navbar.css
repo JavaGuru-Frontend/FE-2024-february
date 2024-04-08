@@ -12,6 +12,11 @@
     align-items: center;
     z-index: 9;
 }
+/*
+.element.stile
+{backdrop-filter: blur(27px);
+}
+ */   
 .brand{
     text-transform: capitalize;
     font-weight: 500;
@@ -20,6 +25,10 @@
     display: flex;
     list-style: none;
 }
+
+
+
+
 .link{
     text-transform: capitalize;
     color: #fff;
