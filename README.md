@@ -15,6 +15,7 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 [05](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/05/homework.md)  
 [06](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/06/homework.md)  
 [07](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/07/homework.md)  
+[07](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/08/homework.md)  
 
 
 ## Макеты
