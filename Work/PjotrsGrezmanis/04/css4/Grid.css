@@ -1,0 +1,21 @@
+.Grid {
+    display: grid;
+    position: relative;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    gap: 10px;
+    left: 625px;
+    
+}
+
+.div1 {
+
+}
+
+.div2 {
+     
+}
+
+.div3 {
+    
+}

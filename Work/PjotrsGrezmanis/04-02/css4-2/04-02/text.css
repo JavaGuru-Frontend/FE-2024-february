@@ -1,0 +1,66 @@
+.Text {
+ 
+}
+
+.text-1 {
+    position: relative;
+    display: flex;
+    Width: 300px;
+    Height: 100px;
+    top: -40px;
+    left: -175px;
+}
+
+.text-2 {
+    position: relative;
+    display: flex;
+    Width: 300px;
+    Height: 100px;
+    top: 100px;
+    left: -175px;
+}
+
+.text-3 {
+    position: relative;
+    display: flex;
+    Width: 100px;
+    Height: 100px;
+    left: -70px;
+    top: 120px;
+}
+
+.text-4 {
+    position: relative;
+    display: flex;
+    Width: 100px;
+    Height: 100px;
+    top: 15px;
+    left: -72px;
+}
+
+.text-5 {
+    position: relative;
+    display: flex;
+    Width: 50px;
+    Height: 100px;
+    top: 160px;
+    left: -50px;
+}
+
+.text-6 {
+    position: relative;
+    display: flex;
+    Width: 50px;
+    Height: 100px;
+    top: 25px;
+    left: -50px;
+}
+
+.text-7 {
+    position: relative;
+    display: flex;
+    Width: 50px;
+    Height: 100px;
+    left: -50px;
+    top: -25px;
+}

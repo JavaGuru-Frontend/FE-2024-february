@@ -1,0 +1,49 @@
+.sprite {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-image: url(../assets/spritesIcon.png);
+    background-repeat: no-repeat;
+    margin-left: 800px;
+}
+
+.sprite-email {
+    width: 30px;
+    height: 30px;
+    background-position: 0 0;
+}
+
+.email-text {
+    margin-left: 35px;
+    margin-top: -45px;
+}
+
+.sprite-LinkedIn {
+    width: 30px;
+    height: 30px;
+    background-position: 0 -30px;
+}
+
+.LinkedIn-text {
+    margin-left: 35px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: 0 -60px;
+}
+.tumblr-text{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: 0 -90px;
+}
+.twitter-text{
+    margin-left: 35px;
+    margin-top: -20px;
+}

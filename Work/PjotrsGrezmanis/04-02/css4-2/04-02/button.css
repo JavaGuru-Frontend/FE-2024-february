@@ -1,0 +1,30 @@
+.button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 30px;
+    top: 20px;
+    
+
+}
+
+.button-1 {
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.button-2 {
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.button-3 {
+    width: 100px;
+    height: 100px;
+
+}
