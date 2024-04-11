@@ -1,0 +1,9 @@
+.like{
+    background-color: transparent;
+    border: 1px solid #CEC7C7;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+   color: green;
+}

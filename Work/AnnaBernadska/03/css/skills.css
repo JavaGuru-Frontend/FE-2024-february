@@ -1,0 +1,24 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__items {
+    width: 31%;
+    background-color: rgb(6, 43, 11);
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.skills__items img {
+    margin-right: 20px;
+}
+
+.title__text{
+    padding: 30px;
+}

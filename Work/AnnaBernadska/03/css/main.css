@@ -1,0 +1,19 @@
+.main {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+}
+.main__title {
+color: white;
+padding: 42px 0px;
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 361%;
+}
+.main__button{
+color: grey;
+font-size:15px;
+padding: 10px 10px;
+border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1142px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+* mark {
+    color: var(--text-highlight);
+    background-color: transparent;
+}
+ 
+h3 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}

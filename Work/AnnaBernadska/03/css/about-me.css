@@ -1,0 +1,35 @@
+.about-me{
+    display: flex;
+    align-items: center
+}
+
+.about-me__text{
+   width: 60%;
+}
+
+.about-me__title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 300%;
+    padding-bottom: 44px;
+}
+.about-me__text2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 185%;
+}
+
+.about-me__img {
+    width: 40%;
+    background-image: url(IMG/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} 
+
+.about-me__img img {
+    width: 300px;
+    padding-left: 75px;
+} 

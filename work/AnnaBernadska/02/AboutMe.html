@@ -1,102 +1,114 @@
-<!-- zeka  AnnaBernadska 
-    отлично
-    - из моментов которые можно подправить удалилить не нужные пустые строки
--->
+
 <!DOCTYPE html>
-<html>
+<html lang ="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header> 
-            <div>
-                 <p style="text-align:center;" >
-                <a href="https://www.charactour.com/hub/characters/view/Maleficent.Maleficent" 
-                target="_blank">
-                About</a>
-                <a href="#" target="_blank">Skills</a>
-                <a href="#" target="_blank">Project</a>
-                <a href="#" target="_blank">Contact</a>
-                </p>
+        <div class="container">
+                <header class="header"> 
+                <img src="IMG/github.png">
+                    <div class="header__links">
+                        <a href="https://www.charactour.com/hub/characters/view/Maleficent.Maleficent" 
+                        target="_blank">
+                        About</a>
+                        <a href="#" target="_blank">Skills</a>
+                        <a href="#" target="_blank">Project</a>
+                        <a href="#" target="_blank">Contact</a>  
+                    </div> 
+                    <div>
+                        <img src="IMG/LinkedInIcon.png">
+                    </div>
+                </header>
+        <section class="main">
+            <h1 class="main__title">
+            Hello world! I’m  Maleficent.
+            <br><span style="color: rgb(4, 69, 4);">Ruler of the Moors</span> Mistress of All Evi!
+            </h1>
+            <button class="main__button">Check my resume</button>
+        </section>
+        <section class="about-me">
+            <div class="about-me__text">
+                <h2 class="about-me__title">About me</h2>
+                <p class="about-me__text2">
+                    Maleficent is a powerful dark fairy   
+                    Growing up as an orphan in the Moors, Maleficent believed herself to be the last of her kind.
+                    <br> <br>
+                    As she grew into adulthood, she became the de facto protector of the Moors. 
+                    One day, Maleficent suffers a ruthless betrayal and deceit that turns her pure heart to stone. 
+                </p> 
             </div>
-        </header>
+            <div class="about-me__img">
+                    <img src="IMG/maleficent__.png">
+            </div>    
+        </section>
+        <section class="title">
+            <div class="title__text">Skills</div>
+        </section>  
+            <section class="skills">
+                <div class="skills__items">
+                    <img src="IMG/react.png">
+                    FLIES
+                </div>
+                <div class="skills__items">
+                    <img src="IMG/react.png">
+                    MAGIC
+                </div>
+                <div class="skills__items">
+                    <img src="IMG/react.png">
+                    REINCARARATION
+                </div>
+                <div class="skills__items">
+                    <img src="IMG/react.png">
+                    REGENERATION
+                </div>
+                <div class="skills__items">
+                    <img src="IMG/react.png">
+                    PLANTS CONTROLS
+                </div>
+                <div class="skills__items">
+                    <img src="IMG/react.png">
+                    CURSE
+                </div>
+            </section>
+            <section class="title">
+                <div class="title__text">Projects</div>
+            </section> 
+            <section class="title">
+                <div class="title__text">Contact</div>
+            </section> 
 
-        <main>
-        <h1>
-        Hello world! I’m  <i>Maleficent</i>.
-        <br>Ruler of the Moors, Mistress of All Evi!
-        </h1>
-        <div>
-            <h2 class="title">About me</h2>
 
-            <p class="texst">
-                <br>    Maleficent is a powerful dark fairy   
-                <br>  Growing up as an orphan in the Moors, Maleficent believed herself to be the last of her kind.
-                <BR>
-                <br> As she grew into adulthood, she became the de facto protector of the Moors. 
-                <br> One day, Maleficent suffers a ruthless betrayal and deceit that turns her pure heart to stone. 
-            </p> 
-            <div class="img">
-                <img style="width: 350px;" src="IMG/maleficent__.png">
-           </div>  
+            <h3>Your name</h3>
+            <form>
+                <input type="name" placeholder="Your name">
+                <h3>Email</h3>
+                <input type="email" placeholder="Email">
+                <h3>Message</h3>
+                <textarea cols="30" rows="10">
+                </textarea>
+                <select>
+                    <option value="">Like</option>
+                    <option value="">Dislike</option>
+                </select>
+            </form>
+
+            <section class="footer">
+                © 2024 Maleficent
+                    <div class="footer__links">
+                        <a href="https://www.charactour.com/hub/characters/view/Maleficent.Maleficent" 
+                        target="_blank">
+                        About</a>
+                        <a href="#" target="_blank">Skills</a>
+                        <a href="#" target="_blank">Project</a>
+                        <a href="#" target="_blank">Contact</a>  
+                    </div> 
+                    <div>
+                        <img src="IMG/LinkedInIcon.png">
+                    </div>
+            </section>
         </div>
-
-       
-        <h2 style="text-align: center;">Skills</h2>
-
-        <table>
-            <thead>
-                <tr>
-                    <td><img src="IMG/react.png">FLIES</td>
-                    <td><img src="IMG/react.png">MAGIC</td>
-                    <td><img src="IMG/react.png">REINCARARATION</td>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td><img src="IMG/react.png">REGENERATION</td>
-                    <td><img src="IMG/react.png">PLANTS CONTROLS</td>
-                    <td><img src="IMG/react.png">CURSE</td>
-                </tr>     
-            </tbody>
-
-        </table>
-
-        <h2 class="test1">Contact</h2>
-
-        <h3>Your name</h3>
-        <form>
-            <input type="name" placeholder="Your name">
-            <h3>Email</h3>
-            <input type="email" placeholder="Email">
-            <h3>Message</h3>
-            <textarea cols="30" rows="10">
-            </textarea>
-            <select>
-                <option value="">Like</option>
-                <option value="">Dislike</option>
-            </select>
-        </form>
-
-
-        </main>
-
-        <footer>
-            © 2024 Maleficent
-            <a 
-            href="https://www.charactour.com/hub/characters/view/Maleficent.Maleficent" 
-            target="_blank">
-            About</a>
-            <a href="#" target="_blank">Skills</a>
-            <a href="#" target="_blank">Project</a>
-            <a href="#" target="_blank">Contact</a>
-
-        </footer>
-
     </body>
-
-
 </html>

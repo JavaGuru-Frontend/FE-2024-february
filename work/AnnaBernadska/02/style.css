@@ -1,53 +1,22 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(body.css);
+@import url(main.css);
+@import url(about-me.css);
+@import url(title.css);
+@import url(skills.css);
+@import url(footer.css);
 
 *{
-    border: 2px solid red;
-}
-body {
-    color:white;
-    background-color: black;
+    border: 2px solid red !important;
 }
 
-h1 {
-    color: blueviolet;
-    padding-left: 60px;
-}
-
-.texst{
-    width: 550px;
-    padding left: ;: 60px;
-    margin: 60px;
-    display: inline-block;
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-}
-.img {
-    
-    margin: 60px;
-    display: inline-block;
-}
-
-table {
-width: 800px; 
-margin: auto; 
-}
-td {
-border: 3px solid rgb(21, 0, 128); 
-text-align: center; 
-}
-
-h2 {
-    font-size: 60px;
-}
-
-
-.title {
-    color:chartreuse;
-    padding-left: 60px;
-}
 
 .test1 {
     text-align: center;
 }
 
-
+.container {
+    width: 1142px;
+    margin: 0 auto;
+}

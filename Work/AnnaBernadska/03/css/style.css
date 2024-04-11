@@ -1,0 +1,26 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(body.css);
+@import url(main.css);
+@import url(about-me.css);
+@import url(title.css);
+@import url(skills.css);
+@import url(footer.css);
+@import url(projects.css);
+@import url(contact.css);
+@import url(font.css);
+@import url(like.css);
+@font-face {
+    font-family:EduSWA ;
+    src: url(font/EduNSWACTFoundation-VariableFont_wght.ttf);
+}
+
+/* *{
+    border: 2px solid red !important;
+} */
+
+
+.container {
+    width: 1142px;
+    margin: 0 auto;
+}

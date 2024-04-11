@@ -1,0 +1,56 @@
+.projects-wrapper {
+    padding: 150px 0;
+}
+.projects {
+    margin-top: 40px;
+}
+.project {
+    background-color: var(--main-light);
+    border-radius: 8px;
+    padding: 35px;
+    display: flex;
+}
+
+.project__img img {
+    width: 300px;
+    height: 300px;
+}
+
+.project__description {
+    margin-left: 40px;
+}
+
+.project__description h4 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.project__description p {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #C9C9C9;
+}
+
+.projects__skills {
+    display: flex;
+    padding-top: 30px;
+}
+.projects__skills img {
+    height: 34px;
+    padding: 0;
+    padding-right: 10px;
+
+}
+
+.projects__skills-item {
+    display: flex;
+    padding-right: 30px;
+    font-size: 24px;
+}

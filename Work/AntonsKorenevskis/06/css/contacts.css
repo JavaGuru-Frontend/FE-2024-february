@@ -1,0 +1,33 @@
+.contacts {
+    max-width: 1142px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 20px;
+    justify-content: space-between;
+    background-color: var(--contacts-color);
+}
+
+.contacts__about {
+    width:25%;
+    margin: 0 20px 0 0;
+}
+
+
+
+.contacts__menu {
+    margin: 0 20px 0 0;
+}
+
+.contacts__menu :hover {
+    transition: 0.5s;
+    color: var(--main-bg-color);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--main-bg-color);
+    
+}
+
+@media screen and (max-width: 800px) {
+
+
+ }

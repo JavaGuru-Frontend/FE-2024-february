@@ -1,0 +1,11 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./common.css";
+@import "./animation.css";
+
+@import "./header.css";
+@import "./main.css";
+@import "./aboutme.css";
+@import "./skills.css";
+@import './projects.css';
+@import './contacts.css';
