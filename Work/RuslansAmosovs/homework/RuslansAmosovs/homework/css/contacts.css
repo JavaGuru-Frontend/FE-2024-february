@@ -6,17 +6,22 @@
 .contact {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+    grid-template-areas:
+    "contact    email        "      
+    "contact    wattsapp     "
+    "contact    message      "
+    "contact    github       ";
 }
     
-.contact__form { grid-area: 1 / 1 / 5 / 8; }
-.contact__list_email { grid-area: 1 / 8 / 2 / 13; }
-.contact__list_whattsapp { grid-area: 2 / 8 / 3 / 13; }
-.contact__list_message { grid-area: 3 / 8 / 4 / 13; }
-.contact__list_github { grid-area: 4 / 8 / 5 / 13; }
+.contact__form { grid-area: contact; }
+.contact__list_email { grid-area: email; }
+.contact__list_whattsapp { grid-area: wattsapp; }
+.contact__list_message { grid-area: message; }
+.contact__list_github { grid-area: github; }
 
 
 .contact__form,
@@ -74,10 +79,21 @@
 }
 
 @media screen and (max-width: 800px) {
-.contacts {
-    font-size: 16px;
-    flex-direction : column;
-    align-items: center;
-}
+    .contact {
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        grid-template-areas:
+        "contact"
+        "   wattsapp      "     
+        "   email        "
+        "   github       "
+        "   message      ";
+    }
+
+    
 
 }
