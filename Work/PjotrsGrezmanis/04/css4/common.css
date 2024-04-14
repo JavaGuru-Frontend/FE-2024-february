@@ -1,11 +1,15 @@
+ @media screen {
 
-* {
+     /*{
     border: solid 1px red !important;
     box-sizing: border-box;
-}
+   
+ }*/
 
-.container {
-    min-width:auto;
-    max-width: auto;
-    margin: 0 auto;
-}
+     .container {
+         min-width: 768px;
+         margin: 0 auto;
+         margin-right: 0;
+
+     }
+ }

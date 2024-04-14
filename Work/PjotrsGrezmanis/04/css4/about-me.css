@@ -6,15 +6,25 @@
 }
 
 .about-me__text {
+    color: white;
+    font-size: 50px;
     width: 60%;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.about-me_my_text{
+    color: white;
+    font-size: 20px;
+}
 
 .about-me__img {
+    position: relative;
+    left: 110px;
+    top:10px;
     width: 100%;
 }
 
 .about-me__img img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 301px;
+    border-radius: 86px;
 }
