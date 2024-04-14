@@ -1,0 +1,20 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.skills__items {
+    width: 31%;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.skills__items img  {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}

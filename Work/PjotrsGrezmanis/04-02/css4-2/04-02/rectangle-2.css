@@ -1,0 +1,31 @@
+.rectangle-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 520px;
+    top: -40px;
+
+}
+
+.rectangle-3 {
+    color: #A387C4;
+    width: 500px;
+    height: 306px;
+   
+
+}
+
+.rectangle-57 {
+    color: #A387C4;
+    width: 500px;
+    height: 352px;
+   
+
+}
+
+.rectangle-55 {
+    color: #A387C4;
+    width: 500px;
+    height: 301px;
+   
+}

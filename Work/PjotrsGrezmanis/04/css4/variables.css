@@ -1,0 +1,29 @@
+.container {
+    background-color: rgb(223, 189, 145);
+}
+
+
+.skills__items{
+    background-color: darkblue;
+    color: white;
+}
+
+.main__btn:active {
+    background-color: red;
+    
+    }
+    .main__btn:hover{
+        color: green;
+    }
+
+    .button:active{
+        background-color: red;
+    }
+    .button:hover{
+        color: green;
+    }
+    
+    .title__text2{
+        background-color: rgb(133, 209, 20);
+    color: white;
+    }

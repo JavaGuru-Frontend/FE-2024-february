@@ -1,0 +1,66 @@
+.face-columb {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 25px;
+
+}
+
+.face-1 {
+    Width: 100px;
+    Height: 100px;
+
+
+
+}
+
+.face-2 {
+    Width: 100px;
+    Height: 100px;
+
+
+
+}
+
+.face-3 {
+
+    Width: 100px;
+    Height: 100px;
+
+
+}
+
+.face-columb-1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 320px;
+
+
+}
+
+.face-4 {
+    Width: 100px;
+    Height: 100px;
+
+
+
+}
+
+.face-5 {
+    Width: 100px;
+    Height: 100px;
+
+
+
+}
+
+.face-6 {
+
+    Width: 100px;
+    Height: 100px;
+
+
+}

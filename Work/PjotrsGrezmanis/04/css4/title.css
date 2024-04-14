@@ -1,0 +1,29 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title__text {
+    margin: 10px 10px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.title__text_warning {
+    font-size: 40px;
+    color: red;
+}
+
+.title__text_success {
+    font-size: 20px;
+    color: green;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
