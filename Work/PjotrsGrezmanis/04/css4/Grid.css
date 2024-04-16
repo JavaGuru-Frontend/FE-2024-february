@@ -1,21 +1,61 @@
 .Grid {
     display: grid;
     position: relative;
-    grid-template-columns: 100px;
-    grid-template-rows: 100px;
-    gap: 10px;
-    left: 625px;
-    
+    top: -59px;
+    gap: 41px;
+    left: 186px;
+    width: 307px;
+    height: 303px;
+
 }
 
 .div1 {
 
+    height: 20px;
+    width: 81px;
+    color: white;
+    background-color: #0a0a3d;
+    border-radius: 10px;
 }
 
+.div1 input {
+    width: 300px;
+}
+
+
 .div2 {
-     
+    height: 20px;
+    width: 81px;
+    color: white;
+    background-color: #0a0a3d;
+    border-radius: 10px;
+}
+
+.div2 input {
+    width: 300px
 }
 
 .div3 {
+    height: 29px;
+    width: 79px;
+    color: white;
+    background-color: #0a0a3d;
+    border-radius: 10px;
+
+}
+
+.div3 input {
+    height: 100px;
+    width: 300px
     
+}
+
+.Send_Message {
+    position: relative;
+    right: -54px;
+    background-color: #0a0a3d;
+    color: white;
+    top: 58px;;
+    width: 200px;
+    border-radius: 10px;
 }

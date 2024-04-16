@@ -1,49 +1,66 @@
-.sprite {
+.sprite{
     display: flex;
     position: absolute;
     flex-direction: column;
-    background-image: url(../assets/spritesIcon.png);
+     background-image: url(../assets/spritesheet\ \(11\).png);
     background-repeat: no-repeat;
     margin-left: 800px;
+    min-height: 271px;
+    top: 1781px;
+    background-color: #0a0a3d;
+    border-radius: 16px;
+    width: 125px;
 }
-
-.sprite-email {
+.sprite-gmail {
     width: 30px;
     height: 30px;
-    background-position: 0 0;
+    background-position: -20px -20px;
 }
 
-.email-text {
-    margin-left: 35px;
-    margin-top: -45px;
-}
-
-.sprite-LinkedIn {
+.sprite-linkedin {
     width: 30px;
     height: 30px;
-    background-position: 0 -30px;
-}
-
-.LinkedIn-text {
-    margin-left: 35px;
+    background-position: -20px -90px;
 }
 
 .sprite-tumblr {
     width: 30px;
     height: 30px;
-    background-position: 0 -60px;
-}
-.tumblr-text{
-    margin-left: 35px;
-    margin-top: 15px;
+    background-position: -20px -160px;
 }
 
 .sprite-twitter {
     width: 30px;
     height: 30px;
-    background-position: 0 -90px;
+    background-position: -20px -230px;
 }
-.twitter-text{
-    margin-left: 35px;
-    margin-top: -20px;
+
+
+.email-text {
+    color: white;
+    position: relative;
+    top: 14px;
+    left: 60px;
+}
+
+.LinkedIn-text {
+    color: white;
+    position: relative;
+    right: -59px;
+    top: 94px;
+}
+
+.tumblr-text {
+    color: white;
+    position: relative;
+    top: 133px;
+    left: 59px;
+}
+
+
+.twitter-text {
+    color: white;
+    position: relative;
+    top: 157px;
+    left: 60px;
 }

@@ -3,27 +3,55 @@
     justify-content: center;
 }
 
-.title__text {
-    margin: 10px 10px;
-    display: flex;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center
-    
-}
+.title__Skills {
 
-.title__text_warning {
-    font-size: 40px;
-    color: red;
-}
-
-.title__text_success {
-    font-size: 20px;
-    color: green;
-}
-
-.button{
+    margin: 29px 36px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    color: white;
+    font-size: 50px;
+
+}
+
+.title__Projects {
+
+    position: relative;
+    margin: 29px 36px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    top: -157px;
+    left: 170px;
+}
+
+
+.Proect1 img {
+    position: relative;
+    width: 542px;
+    margin-top: 129px;
+    margin-left: -222px;
+
+}
+
+
+.title_Project2 img {
+    position: relative;
+    width: 551px;
+    top: 60px;
+}
+
+.title_text1 {
+    color: white;
+    position: relative;
+    top: 173px;
+}
+
+.title__Contacts {
+    margin: 80px 36px;
+    display: flex;
+    color: white;
+    font-size: 50px;
+
 }

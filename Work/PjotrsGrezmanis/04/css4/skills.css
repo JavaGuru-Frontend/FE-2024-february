@@ -6,14 +6,18 @@
 }
 
 .skills__items {
-    width: 31%;
+    width: 28%;
+    height: 53px;
     margin: 10px 5px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0a0a3d;
+
 }
 
-.skills__items img  {
+.skills__items img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
