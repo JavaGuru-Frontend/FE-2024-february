@@ -37,15 +37,17 @@
     .links-container{
         position: absolute;
         top: 60px;
-        background: #1d1d1d;
+        background: #1d1d1d7a;
+        backdrop-filter: blur(20px);
         width: 100%;
         left: 0;
         padding: 0 10vw;
         flex-direction: column;
         transition: .5s;
         opacity: 0;
-        pointer-events: none;
+        pointer-events: none;  
     }
+
     .links-container.show{
         opacity: 1;
         pointer-events: all;
@@ -74,6 +76,7 @@
     .home__heading{
         font-size: 4.5rem;
     }
+
     /* about-section */
     .about-me-container{
         grid-template-columns: 1fr;
