@@ -1,17 +1,14 @@
- 
- 
- 
- 
- @media screen  and (min-width: 850px){
+ @media screen and (min-width: 850px) {
 
-  /*{
-    border: solid 1px red !important;
-    box-sizing: border-box;
-   
- }*/
+
+     * {
+         border: solid 1px red !important;
+
+
+     }
 
      .container {
-        
+
          min-width: 768px;
          margin: 0 auto;
          margin-right: 0;
