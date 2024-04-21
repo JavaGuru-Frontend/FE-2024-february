@@ -15,8 +15,8 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 [05](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/05/homework.md)  
 [06](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/06/homework.md)  
 [07](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/07/homework.md)  
-[07](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/08/homework.md)  
-
+[08](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/08/homework.md)  
+[09](https://github.com/JavaGuru-Frontend/FE-2024-february/blob/main/Homeworks/09/homework.md) 
 
 ## Макеты
 [1](https://www.figma.com/file/ZQow7y7MzPV5H488WiuteJ/Portfolio?type=design&mode=design&t=9ZFy6trMqi1HXqrR-1)   
@@ -28,13 +28,12 @@ https://github.com/JavaGuru-Frontend/FE-2024-february
 | AleksejsLalins        | AleksejsLalins   | ✓ | ✓ | / | / | / |   |   |   |   |    | 
 | AlijaAlijeva          | AlijAalijeva     | ✓ | ✓ | / | / | / |   |   |   |   |    | 
 | AnnaBernadska         | Anna Bernadska   | ✓ | ✓ | / | / | ? | / |   |   |   |    | 
-| AntonsKorenevskis     | neontone         | ✓ | ✓ | 🔥 | ✓ | ✓ | ✓ |   |   |   |   | 
+| AntonsKorenevskis     | neontone         | ✓ | ✓ | 🔥 | ✓ | ✓ | ✓ | ✓ |   |   |   | 
 | JevgenijaKarpova      | YevgeniyaKrp     | ✓ | ✓ | / |   |   |   |   |   |   |    | 
 | JevgenijsVoronovs     |                  | ✓ | ✓ |   |   |   |   |   |   |   |    | 
-| MarinaKuznecova       | Marina Kuznecova | ✓ |   | / | ✓ | ✓ | / |   |   |   |    | 
+| MarinaKuznecova       | Marina Kuznecova | ✓ |   | / | ✓ | ✓ | / | ✓ |   |   |    | 
 |                       | pjotr grezmanis  | ? |   |   |   | ? |   |   |   |   |    | 
-| RuslansAmosovs        | Ruslans          |   | ✓ | / | ✓ | ✓ |   |   |   |   |    | 
+| RuslansAmosovs        | Ruslans          |   | ✓ | / | ✓ | ✓ |   | ✓ |   |   |    | 
 | SvetlanaDaugele       | Svetlana Daugele | ✓ |   |   |   |   |   |   |   |   |    | 
 | SvetlanaPokatilova    | aMADsss          | ✓ |   | ? |   | ? |   |   |   |   |    | 
-| YehorViendin          | yehor10          | ✓ | ✓ | / |   | ✓ | / |   |   |   |    | 
-
+| YehorViendin          | yehor10          | ✓ | ✓ | / |   | ✓ | / | ✓ |   |   |    | 

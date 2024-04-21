@@ -3,7 +3,7 @@
 .about__section.active,
 .contact__section.active,
 .skill__section.active,
-.timeline.active{
+.timeline__section.active{
     position: relative;
     opacity: 1;
     z-index: 8;

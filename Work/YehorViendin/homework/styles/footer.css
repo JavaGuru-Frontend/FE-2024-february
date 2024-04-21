@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 40px;
+    }
+.footer__links a{
+margin: 0px 40px;
+    padding: 15 px;
+}
+.footer__social img{
+    margin: 0px 20px;
+}
+.footer1{
+margin: 0px 40px;
+    padding: 15 px;
+
+}
