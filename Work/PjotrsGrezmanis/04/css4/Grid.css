@@ -1,16 +1,41 @@
 .Grid {
     display: grid;
-    width: 100%;
+    /* width: 100%; */
     height: 300px;
     gap: 10px;
-    justify-content: center;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: repeat(4, 100px);
     grid-template-areas:
-        "a d"
-        "b d"
-        "c d";
+        "contact a"
+        "contact b"
+        "contact c"
+        "contact d";
 }
 
-.a {
+.grid__from{
+    grid-area: contact;
+    background-color: var(--itemsBg-color);
+}
+.grid__a{
+    grid-area: a;
+    background-color: var(--itemsBg-color);
+}
+.grid__b{
+    grid-area: b;
+    background-color: var(--itemsBg-color);
+}
+.grid__b{
+    grid-area: c;
+    background-color: var(--itemsBg-color);
+}
+.grid__b{
+    grid-area: d;
+    background-color: var(--itemsBg-color);
+}
+
+
+
+/* .a {
     grid-area: a;
     height: 40px;
     width: 308px;
@@ -67,14 +92,14 @@
     background-color: #0a0a3d;
     border-radius: 10px;
 
-}
+} */
 
 
 
-.Send_Message {
+/* .Send_Message {
     background-color: #0a0a3d;
     color: white;
     width: 200px;
     border-radius: 10px;
     margin-left: 54px;
-}
+} */
