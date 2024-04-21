@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
-    
+
 
 }
 
@@ -14,7 +14,6 @@
 
 .header-links a {
     color: white;
-
     margin: 0px 50px;
 
 }
@@ -23,4 +22,13 @@
 
     height: 50px;
     width: 50px;
+}
+
+
+.button:active {
+    background-color: var(--button-color);
+}
+
+.button:hover {
+    color: green;
 }

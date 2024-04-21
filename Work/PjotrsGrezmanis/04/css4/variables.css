@@ -1,42 +1,7 @@
-.container {
-    background-color: black;
-    width: auto;
-    height: auto;
-}
-
-
-.skills__items {
-    background-color: darkblue;
-    color: white;
-}
-
-.main__btn {
-    position: relative;
-    top: -43px;
-    width: 135px;
-    height: 40px;
-    border-radius: 11px;
-}
-
-
-.main__btn:active {
-    background-color: red;
-
-}
-
-.main__btn:hover {
-    color: green;
-}
-
-.button:active {
-    background-color: red;
-}
-
-.button:hover {
-    color: green;
-}
-
-.title__text2 {
-    background-color: rgb(133, 209, 20);
-    color: white;
+:root {
+    --background-color: black;
+    --itemsBg-color: #0a0a3d;
+    --button-color: red;
+    --button-2-color: green;
+    --text-links-color: white;
 }

@@ -5,13 +5,12 @@
          border: solid 1px red !important;
 
 
+
      }
 
      .container {
-
-         min-width: 768px;
-         margin: 0 auto;
+         background-color: var(--background-color);
+         margin: auto;
          margin-right: 0;
-
      }
  }

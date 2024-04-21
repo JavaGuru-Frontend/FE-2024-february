@@ -1,14 +1,12 @@
 .title {
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 119px;
 }
 
 .title__Skills {
 
-    margin: 29px 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-size: 50px;
 
@@ -16,41 +14,49 @@
 
 .title__Projects {
 
-    position: relative;
-    margin: 29px 36px;
-    display: flex;
-    align-items: center;
     color: white;
     font-size: 50px;
-    top: -157px;
-    left: 170px;
-}
-
-
-.Proect1 img {
-    position: relative;
-    width: 542px;
-    margin-top: 129px;
-    margin-left: -222px;
 
 }
 
+.title_Project1 {
+    display: flex;
+    height: 200px;
+}
+
+
+.title_Project1 img {
+    height: 198px;
+    width: 358px;
+}
+
+h {
+    color: white;
+    align-content: center;
+}
+
+
+.title_Project2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .title_Project2 img {
-    position: relative;
-    width: 551px;
-    top: 60px;
+    height: 199px;
+    width: 366px;
+}
+
+p {
+    color: white;
+    align-content: center;
 }
 
 .title_text1 {
     color: white;
-    position: relative;
-    top: 173px;
+
 }
 
 .title__Contacts {
-    margin: 80px 36px;
-    display: flex;
     color: white;
     font-size: 50px;
 
