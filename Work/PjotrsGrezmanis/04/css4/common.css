@@ -10,7 +10,7 @@
 
      .container {
          background-color: var(--background-color);
-         margin: auto;
+         margin: 0 auto;
          margin-right: 0;
      }
  }

@@ -1,17 +1,24 @@
 .Grid {
     display: grid;
-    width: 100%;
-    height: 300px;
-    gap: 10px;
+    gap: 2px;
+    height: 600px;
     justify-content: center;
-    grid-template-areas:
-        "a d"
-        "b d"
-        "c d";
+    grid-template-columns: 500px 500px ;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:  
+        "contact gmail"
+        "contact twitter"
+        "contact linkedIn"
+        "contact  humbr"
+        "contact";
 }
 
-.a {
-    grid-area: a;
+.Grid_form {
+
+}/*
+
+.contact {
+    grid-area: contact;
     height: 40px;
     width: 308px;
     color: white;
@@ -19,39 +26,50 @@
     border-radius: 10px;
 }
 
-.a input {
-    color: white;
-    width: 300px;
-    background-color: var(--itemsBg-color);
-}
-
-
-.b {
-    grid-area: b;
+.gmail {
+    grid-area: gmail;
     height: 40px;
     width: 308px;
     color: white;
-    background-color:var(--itemsBg-color);
+    background-color: var(--itemsBg-color);
     border-radius: 10px;
+
 }
 
-.b input {
+/*.a input {
     color: white;
     width: 300px;
     background-color: var(--itemsBg-color);
 }
 
-.c {
-    grid-area: c;
+
+.twitter {
+    grid-area: twitter;
+    height: 40px;
+    width: 308px;
+    color: white;
+    background-color: var(--itemsBg-color);
+    border-radius: 10px;
+}
+
+/*.b input {
+    color: white;
+    width: 300px;
+    background-color: var(--itemsBg-color);
+}
+
+
+.linkedIn {
+    grid-area: linkedIn;
     height: 130px;
     width: 308px;
     color: white;
-    background-color:var(--itemsBg-color);
+    background-color: var(--itemsBg-color);
     border-radius: 10px;
 
 }
 
-.c input {
+/*.c input {
     color: white;
     height: 100px;
     width: 300px;
@@ -60,8 +78,8 @@
 
 }
 
-.d {
-    grid-area: d;
+.thumbr {
+    grid-area: thumbr;
     width: 308px;
     color: white;
     background-color: #0a0a3d;
@@ -71,10 +89,10 @@
 
 
 
-.Send_Message {
+/*.Send_Message {
     background-color: #0a0a3d;
     color: white;
     width: 200px;
     border-radius: 10px;
     margin-left: 54px;
-}
+}*/
