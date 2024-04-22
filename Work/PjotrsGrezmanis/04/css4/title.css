@@ -1,29 +1,63 @@
 .title {
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 119px;
 }
 
-.title__text {
-    margin: 10px 10px;
+.title__Skills {
+
+    color: white;
+    font-size: 50px;
+
+}
+
+.title__Projects {
+
+    color: white;
+    font-size: 50px;
+
+}
+
+.title_Project1 {
     display: flex;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center
-    
+    height: 200px;
 }
 
-.title__text_warning {
-    font-size: 40px;
-    color: red;
+
+.title_Project1 img {
+    height: 198px;
+    width: 358px;
 }
 
-.title__text_success {
-    font-size: 20px;
-    color: green;
+h {
+    color: white;
+    align-content: center;
 }
 
-.button{
+
+.title_Project2 {
     display: flex;
-    justify-content: center;
-    align-items: center
+    flex-direction: row-reverse;
+}
+
+.title_Project2 img {
+    height: 199px;
+    width: 366px;
+}
+
+p {
+    color: white;
+    align-content: center;
+}
+
+.title_text1 {
+    color: white;
+
+}
+
+.title__Contacts {
+    color: white;
+    font-size: 50px;
+
 }

@@ -27,11 +27,11 @@
             </header>  
                     
             <section class="main">
-                <h1 class="main__title"> Hello world! I'm Antons Korenevskis,<br>a <span style="color: var(--selected-text-color)"> Front-End developer</span>, based in Riga</h1>
+                <h1 id = "text" class="main__title"> Hello world! I'm Antons Korenevskis,<br>a <span style="color: var(--selected-text-color)"> Front-End developer</span>, based in Riga</h1>
                 <button  class="main__btn">Check my resume</button> 
             </section>
-            <a id="about-me"></a>
-            <section class="about-me">
+            
+            <section id="about-me" class="about-me">
                 
                 <div class="about-me__text">
                     <div class="title__text" style="text-align: left;">About me</div>
@@ -74,58 +74,13 @@
                 </div>
             </section>
 
-            <section class="title">
-                <a id="projects"></a>
+
+
+            <section id="projects"> 
                 <div class="title__text">Projects</div>
             </section>
 
-            <section class="project">
-                <div class="project__img">
-                    <img src="assets/project_1.png">
-                </div>
-                <div class="project__text">
-                    <div class="title__subtext">Expenses app </div>
-                    <p>Money Manager makes managing personal finances as easy as pie! Now easily record your personal and business financial transactions, generate spending reports...</p>
-                    <div class="project__resources">
-                        <div class="project__resource">
-                            <div class="icon projects-html"></div>
-                            HTML
-                        </div>
-                        <div class="project__resource">
-                            <div class="icon projects-css"></div>
-                            CSS
-                        </div>
-                        <div class="project__resource">
-                            <div class="icon projects-js"></div>
-                            JavaScript
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="project">
-                <div class="project__img">
-                    <img src="assets/project_2.png">
-                </div>
-                <div class="project__text">
-                    <div class="title__subtext">Calorie Counter</div>
-                    <p>Are you looking for a calorie counter with a free barcode scanner, food log, macros tracker, or a comprehensive and effective diet plan? Meet MyNetDiary - sleek, smart and...</p>
-                    <div class="project__resources">
-                        <div class="project__resource">
-                            <div class="icon projects-html"></div>
-                            HTML
-                        </div>
-                        <div class="project__resource">
-                            <div class="icon projects-css"></div>
-                            CSS
-                        </div>
-                        <div class="project__resource">
-                            <div class="icon projects-js"></div>
-                            JavaScript
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section class="title">
                 <a id="contacts"></a>
@@ -178,6 +133,8 @@
                 </div>
             </footer>
 
-        </div>       
+        </div>    
+        <script src=".js/data.js"></script>   
+        <script src=".js/render.js"></script>   
     </body>       
 </html>

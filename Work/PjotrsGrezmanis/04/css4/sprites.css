@@ -1,49 +1,46 @@
 .sprite {
     display: flex;
-    position: absolute;
-    flex-direction: column;
-    background-image: url(../assets/spritesIcon.png);
     background-repeat: no-repeat;
-    margin-left: 800px;
+    align-items: center;
+    background-image: url(../assets/spritesheet\ \(14\).png);
+    margin-top: -267px;
+    margin-left: 45px;
+    height: 255px;
+    width: 125px;
+
 }
 
-.sprite-email {
+.sprite-gmail {
     width: 30px;
     height: 30px;
-    background-position: 0 0;
+    background-position: -18px -18px;
 }
 
-.email-text {
-    margin-left: 35px;
-    margin-top: -45px;
-}
-
-.sprite-LinkedIn {
+.sprite-linkedIn {
     width: 30px;
     height: 30px;
-    background-position: 0 -30px;
-}
-
-.LinkedIn-text {
-    margin-left: 35px;
+    background-position: -18px -84px;
 }
 
 .sprite-tumblr {
     width: 30px;
     height: 30px;
-    background-position: 0 -60px;
-}
-.tumblr-text{
-    margin-left: 35px;
-    margin-top: 15px;
+    background-position: -18px -150px;
 }
 
 .sprite-twitter {
     width: 30px;
     height: 30px;
-    background-position: 0 -90px;
+    background-position: -18px -216px;
 }
-.twitter-text{
-    margin-left: 35px;
-    margin-top: -20px;
+
+.sprite-text {
+
+    display: flex;
+    flex-direction: column;
+    height: 223px;
+    gap: 47px;
+    margin-top: 17px;
+    margin-left: -63px;
+    color: white;
 }

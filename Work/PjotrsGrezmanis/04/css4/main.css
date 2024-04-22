@@ -10,5 +10,20 @@
     font-size: 40px;
     padding:70px 0px;
     margin: 20px 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri
+ 
+}
+.main__btn {
+    width: 135px;
+    height: 40px;
+    border-radius: 11px;
+}
+.main__btn:active {
+    background-color:red;
+
+}
+
+.main__btn:hover {
+    color: var(--button-2-color);
 }
