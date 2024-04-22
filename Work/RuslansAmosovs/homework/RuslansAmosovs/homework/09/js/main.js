@@ -3,6 +3,8 @@ let output = document.getElementById('output');
 let equation = "";
 let id = '';
 let type = '';
+let historyList = JSON.parse(localStorage.getItem('history')) || [];
+let historyEl = document.getElementById('history');
 
 
 for (let i = 0; i < buttons.length; i++) {
@@ -33,8 +35,27 @@ for (let i = 0; i < buttons.length; i++) {
 
     });
 }
+
+let saveToLocalStorage = () => {
+    historyList.push(`${equation}=${eval(equation)}`);
+    localStorage.setItem('history', JSON.stringify(historyList));
+
+}
+
+let loadFromlocalStorage = () => {
+    historyEl.innerHTML = '';
+    let steps = JSON.parse(localStorage.getItem('history')) || [];
+    for (let i = 0; i < steps.length; i++) {
+        historyEl.innerHTML += `<li>${steps[i]}</li>`;
+    }
+    
+}
+
 let equalClicked = () => {
-    output.innerHTML = eval(equation)
+    saveToLocalStorage();
+    output.innerHTML = eval(equation);
+    equation = eval(equation);
+    loadFromlocalStorage();
 }
 
 let operatorClicked = () => {
@@ -45,5 +66,20 @@ let operatorClicked = () => {
 let numberClicked = () => {
     equation += id;
     output.innerText += id;
-
 }
+
+document.addEventListener('keyup', (event) => {
+    if (eval.keyCode === 13) {
+        equalClicked();
+    } else {
+        for (let i = 0; i < buttons.length; i++) {
+            let id = buttons[i].getAttribute('data-id');
+
+            if (id == event.key) {
+                buttons[i].click();
+            }
+        }
+    }
+})
+
+loadFromlocalStorage();
