@@ -63,3 +63,18 @@ let operatorClicked = () =>{
      equation += id;
     output.innerText += id;
 }
+document.addEventListener('keyup', (event) => {
+    if (event.keyCode === 13) {
+        equalClicked();
+    } else {
+        for ( let i = 0; i < buttons.length; i++) {
+            let id = buttons [i].getAttribute('data-id');
+
+            if (id== event.key) {
+                buttons[i].click();
+            }
+        }
+    }
+}
+
+)
