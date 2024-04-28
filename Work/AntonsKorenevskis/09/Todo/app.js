@@ -39,9 +39,57 @@
                 если нажали на Х клавиши удалить то данные стераються из локального хранилища
                 если нажали на сам элемент то нам надо добавить класс done и пересохранить данные в локальное хранилище
 */          
-const taskAdder = document.querySelector('.taskAdder');
+const taskAdder = document.querySelector('[type=submit]');
 const myTasks   = document.querySelector('.myTasks');
+const inputTask = document.querySelector('[name="task"]');
 const tasks     = JSON.parse(localStorage.getItem('taskList')) || [];
+
+let addTask = (event) => {
+    event.preventDefault();
+    let task = {
+        text: inputTask.value,
+        done: false
+    }
+    
+    saveToLocalStorage(task);
+    loadFromLocalStorage();
+}
+
+let saveToLocalStorage = (data) => {
+    tasks.push(data);
+    localStorage.setItem('taskList', JSON.stringify(tasks));
+}
+
+let loadFromLocalStorage = () => {
+    myTasks.innerHTML = "";
+    let tasks = JSON.parse(localStorage.getItem('taskList'))
+    tasks.map(task => {
+        let myClass = task.done ? 'done' : ''; //inline if
+        myTasks.innerHTML += `<li class="${myClass}">${task.text}</li>`;
+    });
+}
+
+let toggleDone = (event) => {
+    // tasks[0].done = !tasks[0].done;
+    // saveToLocalStorage(tasks);
+    // loadFromLocalStorage();
+    if (event.target.classList[0] == 'done') {
+        event.target.classList.remove('done');     
+    } else {
+        event.target.classList.add('done');
+    }
+    saveToLocalStorage(tasks);
+    loadFromLocalStorage();
+}
+
+taskAdder.addEventListener('click', addTask);
+myTasks.addEventListener('click', toggleDone);
+loadFromLocalStorage();
+
 
 // addEventListener click 
 // addEventListener submit
+
+// taskName = document.querySelector('[name="task"]').value;
+// localStorage.setItem('item1', taskName);
+// myTasks.innerHTML += `<li>${taskName}</li>`;
