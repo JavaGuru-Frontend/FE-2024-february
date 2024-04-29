@@ -37,20 +37,13 @@ const apiURL = 'https://dog.ceo/api/';
 const dogSelector = document.getElementById('dogSelector');
 const dogImg = document.getElementById('dogImg');
 let url = '';
-/*
-function createBreedList() {                                            // function renderSelectOptions(data) {      КРАСИВОЕ РЕШЕНИЕ!
-  let htmlDogs = data.map(function (breed, i)  {                        //     data.forEach(breed => {  
-    return `<option value ="${breed.value}">${breed.name} </option>`;   //         dogSelector.innerHTML += `<option value=${breed.value}>${breed.name}</option>`
-  })                                                                    //     })
-  dogSelector.innerHTML = htmlDogs.join('');                            // }
-}
-*/
+
 
 function createBreedList() {
     let htmlDogs = data.map(function (breed, i) {
         if (i === 0) {
-            return `<option>Choose a dog breed</option>` +                 // попробовала обработать первое состояние селектора,
-                `<option value ="${breed.value}">${breed.name} </option>`; // когда еще ничего не было введено (Choose a dog breed).
+            return `<option>Choose a dog breed</option>` +                 
+                `<option value ="${breed.value}">${breed.name} </option>`; 
         } else {
             return `<option value ="${breed.value}">${breed.name} </option>`;
         }
@@ -63,8 +56,8 @@ function renderDogData(data) {
 }
 
 function getBreedImg() {
-    if (dogSelector.value !== 'Choose a dog breed') {                     // если только не запрос на выбор, обращаемся к apiURL,
-        url = apiURL + `breed/${dogSelector.value}/images/random`;        // в противном случае, картинку не выводим.
+    if (dogSelector.value !== 'Choose a dog breed') {                     
+        url = apiURL + `breed/${dogSelector.value}/images/random`;        
         fetch(url)
             .then(response => response.json())
             .then(data => renderDogData(data))
