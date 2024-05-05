@@ -1,5 +1,5 @@
 
-window.onload = () => {
+ window.onload = () => {
     console.log("Get DOM elements by id:", document.getElementById("keyboard-text-input"));
     console.log("Get DOM elements by class:", document.getElementsByClassName("mb-3"));
     console.log("Get DOM elements by tag name:", document.getElementsByTagName("div"));
@@ -36,7 +36,7 @@ window.onload = () => {
 
             // textOutput.innerHTML = convertedKeyValue;
             // textOutput.innerHTML = event.target.value;
-        }
+        }n
     })
 
     textInput.oninput = (event) => {
