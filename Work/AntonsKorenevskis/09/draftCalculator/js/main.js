@@ -4,10 +4,16 @@
 
 let buttons = document.querySelectorAll('.btn');
 let output = document.getElementById('output');
+let history = document.getElementById('history');
+let historyList = JSON.parse(localStorage.getItem('history')) || [];
 let equation = "";
 let id = '';
 let type = '';
 
+let saveToLocalStorage = () => {
+    historyList.push(`${equation}=${eval(equation)}`);
+    localStorage.setItem('history', JSON.stringify(historyList));
+}
 
 let numberClicked = () => {
     if (output.innerText === "0") { //заменяем стоящий первым ноль в аутпуте
@@ -21,30 +27,44 @@ let numberClicked = () => {
 }
 
 let operatorClicked = () => {
-    // equation += id;
-    // output.innerText += id;
+    equation += id;
+    output.innerText += id;
 
-    if  ((equation.endsWith( "-" )) || // делаем не более одного оператора подряд в выражении
-         (equation.endsWith( "+" )) || 
-         (equation.endsWith( "/" )) || 
-         (equation.endsWith( "*")) ) { 
-            equation = equation.slice(0, -1);
-            equation += id; 
-            output.innerText = output.innerText.slice(0, -1);
-            output.innerText += id; 
-        } else {
-            equation += id;
-            output.innerText += id;
-        }
+    // if  ((equation.endsWith( "-" )) || // делаем не более одного оператора подряд в выражении
+    //      (equation.endsWith( "+" )) || 
+    //      (equation.endsWith( "/" )) || 
+    //      (equation.endsWith( "*" )) ) { 
+    //         equation = equation.slice(0, -1);
+    //         equation += id; 
+    //         output.innerText = output.innerText.slice(0, -1);
+    //         output.innerText += id; 
+    //     } else {
+    //         equation += id;
+    //         output.innerText += id;
+    //     }
         
 
 
 
 }
 
+let loadFromLocalStorage = () => {    
+    history.innerHTML = '';
+    let steps = JSON.parse(localStorage.getItem('history')) || [];
+    console.log(steps);
+    for (let i = 0; i<steps.length; i++){
+       history.innerHTML += `<li>${steps[i]}</li>`;
+
+    }
+}
+
+loadFromLocalStorage();
+
 let equalClicked = () => {
-    output.innerHTML = eval(equation);   
-    // output.innerText += id; - закомментил добавление знака равно в аутпут -так красивее
+    saveToLocalStorage();
+    output.innerHTML = eval(equation);  
+    equation = eval(equation);  
+    loadFromLocalStorage();
 }
 
 let clearClicked = () => {
