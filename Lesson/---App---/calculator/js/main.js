@@ -8,6 +8,19 @@ let historyList = JSON.parse(localStorage.getItem('history')) || [];
 
 let historyEl = document.getElementById('history');
 
+function updateOutput() {
+    output.textContent = currentInput;
+}
+
+
+function clearCalculator() {
+    currentInput = '';
+    currentOperator = '';
+    updateOutput();
+}
+
+
+
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function() {
         id = this.getAttribute('data-id');

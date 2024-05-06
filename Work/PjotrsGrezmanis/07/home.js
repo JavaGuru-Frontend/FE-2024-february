@@ -1,43 +1,21 @@
 
 
 
-let number1, number2, operator;
-
-
-number1 = prompt("Введите первое число:");
-number2 = prompt("Введите второе число:");
-operator = prompt("Введите математический оператор (+, -, *, /):");
-
-
-number1 = Number(number1);
-number2 = Number(number2);
-
-
-let result;
-
-switch (operator) {
-    case "+":
-        result = number1 + number2;
-        break;
-    case "-":
-        result = number1 - number2;
-        break;
-    case "*":
-        result = number1 * number2;
-        break;
-    case "/":
-        if (number2 !== 0) {
-            result = number1 / number2;
-        } else {
-            console.log("Ошибка: деление на ноль!");
-            result = undefined;
-        }
-        break;
-    default:
-        console.log("Ошибка: некорректный оператор!");
-        result = undefined;
+function appendToInput(value) {
+    document.getElementById('input').value += value;
 }
 
+function clearInput() {
+    document.getElementById('input').value = '';
+}
 
-console.log(`Результат: ${result}`);
+function calculate() {
+    try {
+        let input = document.getElementById('input').value;
+        let result = eval(input); 
+        document.getElementById('input').value = result;
+    } catch (error) {
+        document.getElementById('input').value = 'Ошибка';
+    }
+}
 
