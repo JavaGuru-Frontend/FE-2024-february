@@ -89,7 +89,7 @@ function loadFromLocalStorage() {
     });
 }
 
-let equalClicked = ()=> {
+function equalClicked () {
     saveToLocalStorage();
     equation = eval(equation).toString();
     updateOutput();
@@ -106,7 +106,7 @@ function numberClicked() {
     updateOutput();
 }
 
-let symbolClicked =() => {
+function symbolClicked ()  {
     equation += id;
     updateOutput();
 }
