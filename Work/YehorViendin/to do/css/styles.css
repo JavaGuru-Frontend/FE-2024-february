@@ -1,55 +1,97 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: o;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    background: #755eb1;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    align-items: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #110d0d;
 }
 
-.header {
-    margin-top: 20px;
+.todo-list{
+    width: 450px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
-.form {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+.list-head{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
 }
 
-input[type="text"] {
-    width: 60%;
+.entered-list{
     padding: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 1px solid gray;
-    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    
 }
 
-button {
-    padding: 10px 20px;
-    background-color: cornflowerblue;
+.add-list{
     border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 20px;
+    border-radius: 5px;
+    background-color: #755eb1;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
     cursor: pointer;
+    opacity: .6;
+    pointer-events: none;
 }
 
-.tasks {
-    margin-top: 20px;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
+.add-list.active{
+    opacity: 1;
+    pointer-events: none;
 }
 
-.task {
-    background-color: beige;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
+.tasks{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.item{
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+    letter-spacing: 1px;
+}
+.item-completed{
+    text-decoration: line-through;
+    color: #11111180;
+}
+
+.item-btn{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 10px;
+
 }
 
-.task-text {
-    width: 70%;
+.item-btn i{
+    color: #755eb1;
+    font-size: 18px;
+    cursor: pointer;
 }
