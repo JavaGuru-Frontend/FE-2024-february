@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.myTasks {
+    list-style: none;
+    padding: 0;
+}
+
+.myTasks li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.taskAdder {
+    margin-top: 20px;
+}
+
+.taskAdder input[type="text"] {
+    padding: 10px;
+    width: 70%;
+}
+
+.taskAdder input[type="submit"] {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.done {
+    color: red;
+    text-decoration: line-through;
+}
