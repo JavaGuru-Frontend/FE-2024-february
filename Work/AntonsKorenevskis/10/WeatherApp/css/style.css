@@ -1,0 +1,28 @@
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: "Lato", sans-serif;
+    height: 100vw;
+}
+
+.container-fluid {
+    max-width: 1142px;
+    margin: auto;
+
+}
+
+.main {
+    width: 20vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+}
