@@ -59,3 +59,72 @@
   //     "name": "Jelgava",
   //     "cod": 200
   // }
+
+let apik = "3045dd712ffe6e702e3245525ac7fa38";
+const mySearches = document.querySelector('.mySearches');
+let cityList = JSON.parse(localStorage.getItem('cityList')) || [];
+
+loadFromLocalStorage();
+
+myBtn.addEventListener("click", buttonPressed);
+
+function buttonPressed() {
+    let text = `https://api.openweathermap.org/data/2.5/weather?q=` + document.getElementById("cityinput").value + `&appid=` + apik;
+    getWeather(text);
+}
+
+
+document.addEventListener('keydown', (event) => { 
+    if (event.keyCode === 13) {
+        buttonPressed();
+    } 
+}) 
+
+
+let getWeather = (text) => {
+    fetch(text)
+        .then(response => response.json())
+        .then(data => {
+            cityoutput.innerHTML = '&#127757;' + data.name;
+            description.innerHTML = 'Weather: ' + (JSON.stringify(data.weather[0].main).slice(1, -1)); 
+            temp.innerHTML = 'Temperature: ' + Math.trunc(data.main.temp - 273) + ' °C';
+            wind.innerHTML = 'Wind speed: ' + data.wind.speed + ' m/s';
+            saveToLocalStorage(data.name);
+            loadFromLocalStorage();
+        })
+        .catch(error => {
+            console.log(error);
+            cityoutput.innerHTML = 'Incorrect city name';
+        });
+    
+}
+
+function saveToLocalStorage(cityName) {
+    if (!cityList.includes(cityName)) {
+        cityList.push(cityName);
+       localStorage.setItem('cityList', JSON.stringify(cityList));
+    }
+}
+
+function loadFromLocalStorage() {
+    let cityList = JSON.parse(localStorage.getItem('cityList')) || [];
+    const mySearches = document.getElementById('mySearches');
+    mySearches.innerHTML = '';
+    cityList.forEach(cityName => {
+        mySearches.innerHTML += `<li>${cityName}</li>`;
+    });
+}
+
+
+let renderForecast = (data) => {
+    document.querySelector('.cityoutput').innerHTML = data.name;
+    document.querySelector('.description').innerHTML = data;
+}
+
+function checkInput() {
+    let text = document.getElementById("cityinput").value;
+    document.getElementById("description").innerHTML = "Hello World"; + text;
+    getWeather;
+}
+
+
